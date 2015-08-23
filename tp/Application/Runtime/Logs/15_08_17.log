@@ -1,0 +1,18 @@
+[ 2015-08-17T01:51:19+08:00 ] 192.168.0.105 /tp/Index/user
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.035540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.053796s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017007s ]
+
+[ 2015-08-17T01:51:53+08:00 ] 192.168.0.105 /tp/Index/user
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+

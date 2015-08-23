@@ -1,0 +1,723 @@
+[ 2015-08-07T02:46:54+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+
+[ 2015-08-07T02:47:10+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-08-07T02:47:43+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /var/www/tp/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /var/www/tp/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000084s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000054s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2015-08-07T02:53:49+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000312s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /var/www/tp/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /var/www/tp/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.015873s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024416s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2015-08-07T03:04:25+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.130497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.181140s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.119270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131915s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /var/www/tp/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /var/www/tp/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.177043s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.047898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015951s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.242996s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.042589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.042686s ]
+
+[ 2015-08-07T03:04:43+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014860s ]
+
+[ 2015-08-07T10:54:28+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.056701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.093139s ]
+
+[ 2015-08-07T10:54:58+08:00 ] 127.0.0.1 /tp/index.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T10:55:01+08:00 ] 127.0.0.1 /tp/index.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013195s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T10:56:12+08:00 ] 127.0.0.1 /tp/index.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018701s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T11:00:45+08:00 ] 127.0.0.1 /tp/index.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007924s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T11:03:55+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.034246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052791s ]
+
+[ 2015-08-07T11:04:14+08:00 ] 127.0.0.1 /tp/index.php/index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.368349s ]
+INFO: [ route_check ] --END-- [ RunTime:0.368752s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T11:05:02+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+
+[ 2015-08-07T11:05:04+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-08-07T11:05:11+08:00 ] 127.0.0.1 /tp/index.php/index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.026133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026369s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T11:05:53+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-08-07T11:06:15+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2015-08-07T11:06:24+08:00 ] 127.0.0.1 /tp/index.php/index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.029132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.029243s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014243s ]
+ERR: 无法加载模块:index
+
+[ 2015-08-07T11:06:28+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2015-08-07T11:07:17+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+
+[ 2015-08-07T11:07:19+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+
+[ 2015-08-07T11:07:27+08:00 ] 127.0.0.1 /tp/index.php/IndexAction/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.021618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021812s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+ERR: 无法加载模块:IndexAction
+
+[ 2015-08-07T11:07:51+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+
+[ 2015-08-07T11:08:09+08:00 ] 127.0.0.1 /tp/index.php/Index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.027080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.027267s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+
+[ 2015-08-07T11:08:37+08:00 ] 127.0.0.1 /tp/index.php/Index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018490s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006418s ]
+
+[ 2015-08-07T11:09:12+08:00 ] 127.0.0.1 /tp/index.php/Index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: name /var/www/tp/Application/Lib/Action/IndexAction.class.php 第 22 行.
+
+[ 2015-08-07T11:09:21+08:00 ] 127.0.0.1 /tp/index.php/Index/user/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: name /var/www/tp/Application/Lib/Action/IndexAction.class.php 第 22 行.
+
+[ 2015-08-07T11:09:26+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+
+[ 2015-08-07T11:10:01+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-08-07T11:10:04+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+
+[ 2015-08-07T11:10:48+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+
+[ 2015-08-07T11:10:55+08:00 ] 127.0.0.1 /tp/index.php/Index/user/id/2/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+
+[ 2015-08-07T11:11:44+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-08-07T11:11:55+08:00 ] 127.0.0.1 /tp/index.php?m=Index&a=user&id=2&name=huangbiao
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+
+[ 2015-08-07T11:15:35+08:00 ] 127.0.0.1 /tp/index.php/Index/user/id/2/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-08-07T11:32:15+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022501s ]
+
+[ 2015-08-07T12:21:10+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.029220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030622s ]
+
+[ 2015-08-07T12:22:03+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.424121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.439881s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+
+[ 2015-08-07T12:25:07+08:00 ] 127.0.0.1 /tp/Index/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.213495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.450705s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.062016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062135s ]
+
+[ 2015-08-07T12:26:32+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011030s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007385s ]
+
+[ 2015-08-07T12:26:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+
+[ 2015-08-07T22:18:26+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.022263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022451s ]
+
+[ 2015-08-07T22:18:33+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.032021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.032204s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+
+[ 2015-08-07T22:21:14+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+
+[ 2015-08-07T22:21:20+08:00 ] 127.0.0.1 /tp/Index/user/id/3/name/huangbiao
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-08-07T22:21:32+08:00 ] 127.0.0.1 /tp/Index/user/id/3/name/hb
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-07T22:21:46+08:00 ] 127.0.0.1 /tp/Index/user/id/3/name/hb
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+
+[ 2015-08-07T22:21:49+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-08-07T22:21:52+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+
+[ 2015-08-07T22:24:39+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+
+[ 2015-08-07T22:24:47+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+
+[ 2015-08-07T22:25:49+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-08-07T22:25:53+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-08-07T22:25:57+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+
+[ 2015-08-07T22:26:04+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+
+[ 2015-08-07T22:26:12+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+
+[ 2015-08-07T22:26:15+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+
+[ 2015-08-07T22:26:20+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-08-07T22:26:24+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-08-07T22:26:37+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-08-07T22:26:41+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000162s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+
+[ 2015-08-07T22:29:09+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-08-07T22:29:37+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-08-07T22:30:09+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+
+[ 2015-08-07T22:46:36+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000959s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002151s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005641s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2015-08-07T22:46:39+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+
+[ 2015-08-07T22:46:40+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-08-07T22:46:43+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+
+[ 2015-08-07T22:46:44+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+
+[ 2015-08-07T22:46:44+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-08-07T22:46:44+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-08-07T22:46:44+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+
+[ 2015-08-07T22:46:44+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-07T22:46:45+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+
+[ 2015-08-07T22:46:45+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-07T22:46:45+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-08-07T22:46:45+08:00 ] 127.0.0.1 /tp/Index/user/id/2/name/huangbiao.htm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/tp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+    <title>index template file</title>
+	<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/>
+</head>
+<body>
+  <!-- {$info.name}
+  <br/>
+  {$info.age}
+  <br/>
+  {$info.sex|default='male'}
+  <br/>
+  {$info.name|md5|substr=0,5}
+  <br/>
+  {$info['age']+10}
+  <br/>
+  {$time|date='Y-m-d H:i:s',###}
+  <br/>
+  {$Think.version}
+  <br/>
+  {$Think.now}
+  <br/>
+  {$Think.server.http_host}
+  <br/> -->
+
+  <!-- volist loop -->
+  <volist name="people" id="value"  offset="1" length="2"  empty="I have no data">
+    {$value['name']}--->:{$value['age']}<br/>
+  </volist>
+  <br/>
+  <!-- foreach loop -->
+  <foreach  name="people" item="value">
+    {$value['name']}===={$value['age']}<br/>
+  </foreach>
+
+<!-- eq:=,neq:!=,gt:>,egt:>=,lt:<,elt:<=,heq:===,nheq:!== -->
+<!-- for loop -->
+<for start='1' end='10' comparison='elt' name='value' >
+  {$value}<br/>
+</for>
+<!-- if else -->
+<if  condition="$num gt 10">
+  num >10<br/>
+<elseif condition="$num lt 10"/>
+  num<10<br/>
+<else/>
+  num==10<br/>
+</if>
+<!-- switch -->
+<switch name='name'>
+  <case value="A">A<br/></case>
+  <case value="B">B<br/></case>
+  <default>C<br/>
+</switch>
+<!-- comparison label -->
+<eq name="num" value="10">num ==10<br/><else/>num !=10<br/></eq>
+<compare name="num" value="10" type="eq">num ==10<br/><else/>num!=10<br/></compare>
+<!-- range label -->
+<in name="num" value="8,9,10,11">num is here <br/></in>
+<notin name="num" value="1,2,3">num is not here<br/></notin>
+<in name="num" value="8,9,10,11">num is here<br/><else/> num is not here<br/></in>
+<between name="num" value="1,11">num is here <br/><else/>num is not here<br/></between>
+<range name='num' value='8,9,10,11' type='in'>num is here<br/></range>
+<!-- three eye operator-->
+{$num >10?'greater than 10':'less or equal than 10'}
+</body>
+</html>
