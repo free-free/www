@@ -1,8 +1,7 @@
 <?php
 //error_reporting(E_ALL);
-if(isset($_FILES)){
+if(isset($_FILES)&&!empty($_FILES)){
 	$file_info=$_FILES['myfile'];
-	print_r($file_info);
 	$file_save_path=array(
 		'jpg'=>"./data/image/jpg",
 		'jpeg'=>'./data/image/jpeg',
@@ -20,7 +19,7 @@ if(isset($_FILES)){
 	/* file save information */
 	$file_save_ext=pathinfo($file_info['name'],PATHINFO_EXTENSION);
 	$file_save_name=md5(uniqid(microtime(true),true));
-	$file_save_path=$file_save_path[$file_save_ext];
+	$file_save_path=in_array($file_save_ext,$file_allow_type)?$file_save_path[$file_save_ext]:'';
 	/*file error processing*/
 	$file_upload_error_info=array(
 		1=>'The numbers of file you are uploading too many',
@@ -44,7 +43,8 @@ if(isset($_FILES)){
 	$file_check_error_code=0;
 
 
-	if($file_error_code==0){
+	if($file_upload_error_code==0){
+		print_r($file_info);
 		if($file_info['size']>$file_max_size){
 			$file_check_error_code=1;
 			echo json_encode(array(
@@ -94,7 +94,7 @@ if(isset($_FILES)){
 				return ;
 			}
 		}
-		if(@!move_uploaded_file($file_info['tmp_name'],$file_save_path.'/'.$file_save_name.'.'.$file_save_ext)){
+		if(!@move_uploaded_file($file_info['tmp_name'],$file_save_path.'/'.$file_save_name.'.'.$file_save_ext)){
 			$file_check_error_code=6;
 			echo json_encode(array(
 				'code'=>$file_check_error_code,
