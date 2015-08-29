@@ -1,0 +1,144 @@
+html body{
+padding:0;
+margin:0;
+}
+body{
+font-family:'Roboto',sans-serif;
+font-weight:100;
+}
+.container{
+ 	margin:0 auto;
+	max-width:940px;
+	padding:0 10px;
+}
+/* Header*/
+.header{
+	height:800px;
+	text-align:center;
+	background:url('bg2.jpg') no-repeat center center;
+	background-size:cover;
+}
+.header .container{
+	position:relative;
+	top:200px;
+}
+.header h1{
+	font-size:80px;
+	line-height:100px;
+	margin-top:0;
+	margin-bottom:80px;
+	text-transform:uppercase;
+	color:#fff;
+}
+.header p{
+	font-weight:500;
+	letter-spacing:8px;		
+	margin-bottom:40px;
+	font-size:24px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+.btn{
+	padding:12px 42px;
+	background:#000;	
+	text-decoration:none;
+	color:#fff;
+}
+.btn:hover{
+	background:#117bff;
+	cursor:pointer;
+	transition:background .5s;
+}
+/* nav*/
+.nav{
+	background:#000;
+	height:80px;
+	width:100%;
+}
+.nav ul{
+	list-style:none;
+	padding:0;
+	margin:0 auto;
+	margin-left:0;
+}
+.nav li{
+	display:inline;
+}
+.nav a{
+	display:inline-block;
+	color:#fff;
+	padding:30px 10px;
+	text-decoration:none;
+	transition:background 0.5s;
+}
+.nav a:hover{
+	background-color:#117bff;
+	cursor:pointer;
+	transition:background .5s;
+}
+
+/* main*/
+.main .container{
+	margin:80px auto;
+}
+.main img{
+	float:left;
+	height:128px;
+	width:196px;
+	margin:50px 80px 50px 0px;
+}
+/* jumbotron*/
+.jumbotron {
+	background:url('./jumbotron_bg2.jpg')  no-repeat center center;
+	background-size:cover;
+	height:600px;
+}
+.jumbotron .container{
+	position:relative;
+	top:220px;
+}
+.jumbotron h2{
+	color:#fff;
+	text-align:right;
+}
+
+.jumbotron p{
+	color:#fff;
+	text-align:right;	
+}
+.jumbotron .btn{
+	float:right;
+	margin-top:10px;
+}
+/*footer*/
+.footer{
+	background-color:#000;
+	height:80px;
+}
+.footer p{
+	color:#fff;
+	height:80px;
+	line-height:80px;
+	margin:0px ;
+	
+
+}
+@media scrren and(max-width:500px){
+	.header h1{
+		font-size:50px;
+		line-height:64px;	
+	}
+	.main ,.jumbotron{
+		padding:0 30px;
+	}
+	.main img{
+		width:100%;
+	}
+
+}
+@media (min-width:850px){
+	.header h1{
+		font-size:120px;
+	}
+}
