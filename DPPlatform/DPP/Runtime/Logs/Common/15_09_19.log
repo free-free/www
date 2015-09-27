@@ -1,0 +1,120 @@
+[ 2015-09-19T11:14:49+08:00 ] 192.168.252.10 /DPPlatform/public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.021401s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056083s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T11:15:18+08:00 ] 192.168.252.10 /DPPlatform/Public/public/logo.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:17:46+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.176305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.264710s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:17:46+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.176308s ]
+INFO: [ app_init ] --END-- [ RunTime:0.362606s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:17:48+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:17:48+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:28:32+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005927s ]
+INFO: [ app_init ] --END-- [ RunTime:0.087346s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:28:32+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.085987s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:28:32+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086909s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T14:28:32+08:00 ] 192.168.252.3 /DPPlatform/Public/focus-img3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.074614s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T19:05:15+08:00 ] 192.168.252.10 /DPPlatform/Public/a.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.034662s ]
+INFO: [ app_init ] --END-- [ RunTime:0.102322s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T19:05:24+08:00 ] 192.168.252.3 /DPPlatform/Public/a.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T19:18:18+08:00 ] 192.168.252.10 /DPPlatform/Public/focus-img5.760
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:05:26+08:00 ] 192.168.252.10 /DPPlatform/Public/idnex.tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.033289s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071264s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:05:35+08:00 ] 192.168.252.3 /DPPlatform/Public/idnex.tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:06:22+08:00 ] 192.168.252.10 /DPPlatform/Public/idnex.tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:06:23+08:00 ] 192.168.252.10 /DPPlatform/Public/idnex.tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:06:39+08:00 ] 192.168.252.10 /DPPlatform/Public/idnex.tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:06:40+08:00 ] 192.168.252.10 /DPPlatform/Public/idnex.tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-19T21:19:39+08:00 ] 192.168.252.1 /DPPlatform/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+ERR: 无法加载模块:Index
+

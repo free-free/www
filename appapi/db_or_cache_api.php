@@ -16,7 +16,7 @@ if(!is_numeric($page_num)||!is_numeric($page_size)){
 
 $cache_record='';
 $_GET['format']=isset($_GET['format'])?$_GET['format']:'json';
-if($cache_record=$cache->cacheData("appdata_index_pg{$page_num}_pgs{$page_size}_{$_GET['format']}",'get')){		
+if(!$cache_record=$cache->cacheData("appdata_index_pg{$page_num}_pgs{$page_size}_{$_GET['format']}",'get')){		
 	try{
 		$con=DB::getInstance()->connect();
 	}catch(Exception $e){

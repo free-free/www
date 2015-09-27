@@ -1,0 +1,6 @@
+[ 2015-09-24T23:55:57+08:00 ] 192.168.252.10 /DPPlatform/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+ERR: 无法加载模块:Index
+

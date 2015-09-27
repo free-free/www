@@ -1,0 +1,7 @@
+1.PHP命名空间：
+	file:namespace.php 
+	支持php5.3U
+2.文件自动载入：
+	file:autoload.php
+	支持php5.2U
+

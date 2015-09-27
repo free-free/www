@@ -1,0 +1,96 @@
+
+/*  main css  */
+.main{
+	width: 100%;
+	background-color: #f2f2f2;
+}
+/* search box css */
+.main .search-box{
+	height: 450px;
+	width: 100%;
+	background: url('./search-box-bg.jpg') no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+.main .search-box form{
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	background: #00f;
+	overflow: hidden;
+}
+.main .search-box input,.main .search-box button{
+	line-height: 34px;
+	height: 34px;
+	border: 0;
+	display: block;
+	float: left;
+	outline: none;
+
+}
+.main .search-box .search-box-text{
+	width: 400px;
+	text-align: left;
+	padding-left: 10px;
+	color: #333;
+	font-weight: 300;
+	font-size: 16px;
+}
+.main .search-box .search-box-button{
+	padding: 0 20px;
+	height: 34px;
+	line-height: 30px;
+/*	background-color: #006699;*/
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 10px;
+	background: -moz-linear-gradient(top,#009999 0,#008899 40%,#007799 60%,#006699 100%);
+	background: -o-linear-gradient(top,#009999 0,#008899 40%,#007799 60%,#006699 100%);
+	background: -ms-linear-gradient(top,#009999 0,#008899 40%,#007799 60%,#006699 100%);
+	background: -webkit-linear-gradient(top,#009999 0,#008899 40%,#007799 60%,#006699 100%);
+	background: -webkit-gradient(linear,top,left,bottom,left,color-stop(0,#009999),color-stop(40%,#008899),color-stop(60%,#007799),color-stop(100%,#006699));
+	background: -moz-linear-gradient(top,#009999 0,#008899 40%,#007799 60%,#006699 100%);
+}
+.main .search-box .search-box-button:hover{
+	background: #006699;
+}
+
+.main .search-box .search-box-notation {
+	position: absolute;
+	left: 399px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              px;
+	top:255px;
+	width:410px;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	display: none;
+	background: #fff;
+	overflow: hidden;
+}
+.main .search-box .search-box-notation .search-box-notation-item{
+	height: 25px;
+	border-bottom: 1px solid #aaa;
+	color: #999;
+	line-height: 25px;
+	width: 400px;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+
+}
+.main .search-box .search-box-notation .search-box-notation-item:hover{
+	font-size: 14px;
+	color: #666;
+	cursor: pointer;
+	background-color: #e1e1e1;
+}
+
+
+/* search result css */
+.main .search-result{
+	height: 600px;
+	width:920px;
+	margin: 0 auto;
+	margin-top:20px;
+	background: #e1e1e1;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

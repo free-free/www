@@ -1,0 +1,48 @@
+[ 2015-09-20T12:08:46+08:00 ] 192.168.252.10 /DPPlatform/Public/focus-img3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007831s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T12:08:46+08:00 ] 192.168.252.10 /DPPlatform/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006862s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T12:08:53+08:00 ] 192.168.252.10 /DPPlatform/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T12:09:00+08:00 ] 192.168.252.10 /DPPlatform/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T14:40:01+08:00 ] 192.168.252.10 /DPPlatform/Public/data/search-button
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019305s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T14:47:16+08:00 ] 192.168.252.10 /DPPlatform/Public/index/inde.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T14:47:25+08:00 ] 192.168.252.10 /DPPlatform/Public/index/inde.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Public
+
+[ 2015-09-20T14:47:36+08:00 ] 192.168.252.10 /DPPlatform/Public/index/inde.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:Public
+

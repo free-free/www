@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Smarty</title>
+</head>
+<body>
+	<p>{$value|capitalize}</p>
+	<p>{$value|upper}</p>
+	<p>{$value|cat:'Hi Guys'}</p>
+	<p>{$x|default:"your are default"}</p>
+	<p>{$time|date_format:"%Y-%m-%d--%H:%M:%I"}</p>
+	<p>{'1'|str_replace:'a':$time}</p>
+	<p>{printf h='home' c='controller' m='method'}</p>
+
+	{section name=value loop=$data}
+			<p>{$data[value]['name']}</p>
+			<p>{$data[value]['age']}</p>
+	{/section}
+
+
+	{foreach $data as $it}
+			<p>{$it['name']}:{$it['age']}</p>
+	{/foreach}
+
+
+	<p>
+	{if $num gt 12313}
+		time is correct!
+	{elseif $num eq 123}
+		time is equal!
+	{else}
+		time is incorrect!
+	{/if}
+	</p>
+	{while $num>1}
+		<p>{$num--}</p>
+	{/while}
+</body>
+</html>

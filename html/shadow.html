@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shadow Effect</title>
+<style type="text/css">
+body,ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.wrap h1{
+	font-size:20px;
+	font-family:Arial sans-serif;
+	line-height:200px;
+	text-align:center;
+}
+.wrap{
+width:50%;
+margin:50px auto;
+height:200px;
+}
+.effect{
+	box-shadow:0 1px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	-o-box-shadow:0 1px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow:0 1px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow:0 1px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	position:relative;
+}
+.effect:after , .effect:before{
+	content:'';
+	box-shadow:0 0px 20px rgba(0,0,0,0.8);
+	-o-box-shadow:0 0px 20px rgba(0,0,0,0.8);
+	-webkit-box-shadow:0 0px 20px rgba(0,0,0,0.8);
+	-moz-box-shadow:0 0px 20px rgba(0,0,0,0.8);
+	top:50%;
+	left:10px;
+	right:10px;
+	bottom:-5px;	
+	z-index:-2;
+	border-radius:100px/10px;
+	-o-border-radius:100px/10px;
+	-moz-border-radius:100px/10px;
+	-webkit-border-radius:100px/10px;
+	position:absolute;
+}
+.box {
+	width:900px;
+	margin:20px auto;
+	height:400px;
+	overflow:hidden;
+}
+.box li{
+	float:left;
+	width:280px;
+	height:360px;
+	margin:5px;
+	background:#fff;
+	border:2px solid #efefef;
+	position:relative;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.27),0 1px 60px rgba(0,0,0,0.1) inset;
+	-o-box-shadow: 0 1px 4px rgba(0,0,0,0.27),0 1px 60px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.27),0 1px 60px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.27),0 1px 60px rgba(0,0,0,0.1) inset;
+}
+img{
+	display:block;
+	width:270px;
+	height:350px;
+	margin:5px;
+}
+.box li:after{
+	position:absolute;
+	content:'';
+	background-color:transparent;
+	width:80%;
+	height:80%;
+	left:30px;
+	bottom:8px;
+	z-index:-2;
+	transform:skew(-12deg) rotate(-4deg);
+	-o-transform:skew(-12deg) rotate(-4deg);
+	-moz-transform:skew(-12deg) rotate(-4deg);
+	-webkit-transform:skew(-12deg) rotate(-4deg);
+        box-shadow:0 10px 20px rgba(0,0,0,0.8);
+	-o-box-shadow:0 10px 20px rgba(0,0,0,0.8);
+	-webkit-box-shadow:0 10px 20px rgba(0,0,0,0.8);	
+	-ms-box-shadow:0 10px 20px rgba(0,0,0,0.8);
+	
+}
+.box li:before{
+	position:absolute;
+	content:'';
+	background-color:transparent;
+	width:80%;
+	height:80%;
+	right:30px;
+	bottom:8px;
+	z-index:-2;
+	transform:skew(12deg) rotate(4deg);
+	-o-transform:skew(12deg) rotate(4deg);
+	-moz-transform:skew(12deg) rotate(4deg);
+	-webkit-transform:skew(12deg) rotate(4deg);
+        box-shadow:0 10px 20px rgba(0,0,0,0.8);
+	-o-box-shadow:0 10px 20px rgba(0,0,0,0.8);
+	-webkit-box-shadow:0 10px 20px rgba(0,0,0,0.8);	
+	-ms-box-shadow:0 10px 20px rgba(0,0,0,0.8);
+	
+}
+</style>
+</head>
+<body>
+<div class="wrap effect">
+<h1>Shadow Effect</h1>
+</div>
+<ul class="box">
+	<li><img src="./a.jpg"></li>
+	<li><img src="./b.jpg"></li>
+	<li><img src="./c.jpg"></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Arial';
+	src: url('fonts/Arial.eot');
+	src:  url('fonts/Arial.woff') format('woff'), url('fonts/Arial.ttf') format('truetype'), url('fonts/Arial.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
