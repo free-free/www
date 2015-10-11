@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Event String</title>
+</head>
+<body>
+	<div class="box">
+		<input type="button"  value="button1"  class="btn1" onclick="showMes1()"/>
+		<input type="button"  value="button2"  class="btn2"/>
+		<input type="button"  value="button3" class="btn3"/>
+	</div>
+</body>
+<script type="text/javascript" src="event.js"></script>
+<script>
+	var btn2=document.getElementsByClassName('btn2')[0];
+	var btn3=document.getElementsByClassName('btn3')[0];
+	function showMes1(){
+		alert('hello button1');
+	}
+	function showMes2(){
+		alert('hello '+this.value)
+	}
+	btn2.onclick=function(){alert('hello '+this.value);};
+	eventUtil.addHandler(btn3,'click',showMes2);
+	eventUtil.removeHandler(btn3,'click',showMes2);
+	/*if(btn3.attachEvent){
+		btn3.attachEvent('onclick',showMes2);	
+	}else if(btn3.addEventListener){
+		btn3.addEventListener('click',showMes2,false);
+	}else{
+      
+	}
+	if(btn3.detachEvent){
+		btn3.detachEvent('onclick',showMes2);	
+	}else if(btn3.removeEventListener){
+		 btn3.removeEventListener('click',showMes2,false);	
+	}else{
+
+	}*/
+	//IE event
+	/*btn3.attachEvent('onclick',showMes2);
+	btn3.detachEvent('onclick',showMes2);*/
+	// not IE 
+	/*btn3.addEventListener('click',showMes2,false);
+    btn3.removeEventListener('click',showMes2,false);
+   */
+</script>
+</html>
+
+
+

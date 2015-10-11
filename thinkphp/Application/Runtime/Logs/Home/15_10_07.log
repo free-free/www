@@ -1,0 +1,11 @@
+[ 2015-10-07T00:33:37+08:00 ] 192.168.252.10 /thinkphp/router/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+

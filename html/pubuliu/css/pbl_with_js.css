@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	position: relative;
+}
+.box{
+    padding: 10px 0 0 15px;
+    float: left;
+}
+.pic{
+	padding: 10px;
+	box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.pic img{
+	display: block;
+	width: 170px;
+	height: auto;
+}
+.pic .img-title{
+	padding: 4px;
+
+}
+.pic .img-desc{
+	padding: 4px;
+	
+}
+.box:hover .pic{
+	padding: 0;
+	box-shadow: 0 0 20px #333;
+	border: 0;
+}
+.box:hover .pic img{
+    width: 185px;
+    height: auto; 
+    display: block;
+}

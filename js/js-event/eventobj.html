@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Event Object</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.box{
+		position: relative;
+		height: 100%;
+        width: 100%;
+	}
+	.container{
+			height: 100px;
+			width: 200px;
+			position: absolute;
+			top: 100px;
+			left: 45%;
+			background: #0ba;
+	}
+	 .head{font-size:12px;padding:6px 0 0 10px;}
+     #login_box{width:300px;
+     	        height:150px;
+     	        background:#eee;
+                border:1px solid #ccc;
+                position:absolute;
+                left:20%;
+                top:50%;
+                margin-left:-150px;
+                margin-top:-75px;
+                display:none;
+                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                z-index: 99999;
+            }
+     #login_box p{height:20px;
+     	          border-bottom:1px solid #ccc;
+     	          font-size:12px;
+     	          padding:6px 0 0 5px;
+     	          font-weight:bold;
+
+     	      }
+     #close{width:14px;
+     	     height:14px;background:#0ba no-repeat;
+     	     position:absolute;
+     	     right:20px;
+     	     top:6px;}
+	</style>
+</head>
+<body>
+	<div class="head">亲，您好！<input type="button" value="登 录" id="login"></div>
+		
+		<div id="login_box">
+		<p>用户登录</p><span id="close"></span>
+	</div>
+	
+
+	<div class="box">
+		<div class="container">
+			<input type="button" value="clickme" id="btn">	
+			<a href="index.html" class="a">click me ,take you to another interesting place</a>	
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="event.js"></script>
+<script type="text/javascript">
+	/*the property of event object :
+		1.type
+		2.target
+		3.stopPropagation()
+		4.preventDefault()
+		//in IE
+        1.type
+        2.srcElement
+        3.cancelBubble
+        4.returnValue
+	
+	*/
+     var btn=document.getElementById('btn');
+     var con=document.getElementsByClassName('container')[0];
+     var a=document.getElementsByClassName('a')[0];
+     /*function showBtn(event){
+     	    event=event||window.event;//for IE and none IE
+     		alert(event.target.value);	
+     		event.stopPropagation();
+     }
+     function showBox(event){
+     		alert('box');
+     }
+     function showA(event){
+     	event=event||window.event;
+     	alert('hello worl ,I am a');
+     	event.stopPropagation();
+     	event.preventDefault();
+
+     }
+     btn.addEventListener('click',showBtn,false);
+     con.addEventListener('click',showBox,false);
+     a.addEventListener('click',showA,false);*/
+     eventUtil.addHandler(btn,'click',function(e){
+     	alert('I am btn');
+     	eventUtil.stopPropagation(e);
+     });
+     eventUtil.addHandler(con,'click',function(e){
+           alert('I am container');
+           eventUtil.stopPropagation(e);
+     });
+     eventUtil.addHandler(a,'click',function(e){
+     	alert('I am A');
+     	eventUtil.preventDefault(e);
+     	eventUtil.stopPropagation(e);
+     });
+     /*
+     login
+     */
+     
+     var login_btn=document.getElementById('login'),
+      	    login_box=document.getElementById('login_box'),
+      	    close=document.getElementById('close'),
+      	     body=document.getElementsByTagName('body')[0];
+      function showLogin(e){
+      	login_box.style.display='block';
+      	body.style.opacity='0.1';
+
+      }
+      function closeLogin(e){
+      	login_box.style.display='';
+      	body.style.opacity='1';
+      }
+     eventUtil.addHandler(login_btn,'click',showLogin);
+     eventUtil.addHandler(close,'click',closeLogin);
+</script>
+</html>

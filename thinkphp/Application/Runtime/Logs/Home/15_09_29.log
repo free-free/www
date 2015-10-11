@@ -1,0 +1,579 @@
+[ 2015-09-29T19:07:25+08:00 ] 192.168.0.111 /thinkphp/home/index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014806s ]
+NOTIC: [2] strpos(): Empty needle /var/www/thinkphp/ThinkPHP/Library/Think/View.class.php 第 161 行.
+ERR: 模板不存在:./Application/Home/View/IndexIndexindex.html
+
+[ 2015-09-29T19:07:48+08:00 ] 192.168.0.111 /thinkphp/home/index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: 模板不存在:./Application/Home/View/Indexoperateview.html
+
+[ 2015-09-29T19:07:49+08:00 ] 192.168.0.111 /thinkphp/home/index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: 模板不存在:./Application/Home/View/Indexoperateview.html
+
+[ 2015-09-29T19:07:49+08:00 ] 192.168.0.111 /thinkphp/home/index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+ERR: 模板不存在:./Application/Home/View/Indexoperateview.html
+
+[ 2015-09-29T19:07:54+08:00 ] 192.168.0.111 /thinkphp/home/index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+ERR: 模板不存在:./Application/Home/View/Indexoperateview.html
+
+[ 2015-09-29T19:08:22+08:00 ] 192.168.0.111 /thinkphp/home/index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033493s ]
+
+[ 2015-09-29T19:08:30+08:00 ] 192.168.0.111 /thinkphp/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:08:36+08:00 ] 192.168.0.111 /thinkphp/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:08:58+08:00 ] 192.168.0.111 /thinkphp/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:09:33+08:00 ] 192.168.0.111 /thinkphp/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:09:34+08:00 ] 192.168.0.111 /thinkphp/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:10:49+08:00 ] 192.168.0.111 /thinkphp/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:10:55+08:00 ] 192.168.0.111 /thinkphp/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:11:01+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:11:45+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-09-29T19:12:07+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2015-09-29T19:12:08+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001904s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002038s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2015-09-29T19:12:17+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2015-09-29T19:12:17+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2015-09-29T19:12:23+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+ERR: 模板不存在:./Application/Home/View/Indexindex.html
+
+[ 2015-09-29T19:13:08+08:00 ] 192.168.0.111 /thinkphp/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-09-29T19:13:19+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-09-29T19:13:30+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-09-29T19:13:45+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-09-29T19:16:41+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2015-09-29T19:17:06+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2015-09-29T19:20:43+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2015-09-29T19:20:44+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-09-29T19:20:49+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-09-29T19:22:18+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003983s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2015-09-29T19:22:52+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000102s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2015-09-29T19:23:02+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000065s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-09-29T19:23:15+08:00 ] 192.168.0.111 /thinkphp/Home/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: age /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 2 行.
+NOTIC: [8] Undefined variable: likes /var/www/thinkphp/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000054s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+

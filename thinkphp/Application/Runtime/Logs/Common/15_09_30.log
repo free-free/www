@@ -1,0 +1,6 @@
+[ 2015-09-30T11:39:10+08:00 ] 192.168.253.7 /thinkphp/Index/operateview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019402s ]
+ERR: 无法加载模块:Index
+

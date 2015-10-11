@@ -6,9 +6,36 @@
 </p>
  -->
 
- <form action="/thinkphp/home/index/login" method="POST">
+ <!-- <form action="/thinkphp/home/index/createUser" method="POST">
  	user name:<input type="text" name="user_name"><br/>
  	email:<input type="text" name="email"><br/>
  	password<input type="password" name="password"><br/>
-	<input type="submit"  value="login">
- </form>
+ 	<input type="submit"  value="login">
+ </form> -->
+ <html>
+ <head>
+ 	<style type="text/css">
+ 	*{
+ 		margin: 0;
+ 		padding:0;
+ 	}
+	.div{
+		height: 100%;
+		background-color: #0ba;
+	}
+ 	</style>
+ </head>
+ <body>
+ <div class='div'>
+ 	
+ 		<if condition="$num eq 0">
+ 			num is equal to 0
+ 		<elseif  condition="$num lt 0"/>
+	        num is smaller than 0
+	     <else/>
+	     	num is bigger than 0
+	    </if>
+ 	
+ </div>
+</body>
+ </html>
