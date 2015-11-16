@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+	*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header .container{
+ 	height: 120px;
+     width: 100%;
+ }
+ .header-top{
+ 	height: 70px;
+ 	background: #3399cc;
+ }
+ .header-title{
+ 	line-height: 70px;
+ 	font-size: 30px;
+	color: #fff;
+	text-align: center;
+ }
+ .nav{
+ 	height: 50px;
+ 	background:-moz-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+		background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(60%,#fefefe),color-stop(81%,#f2f2f2),color-stop(100%,#e1e1e1));
+background:-webkit-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+background:-o-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+background:-ms-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+background:linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%); 
+}
+.nav-items{
+	padding-left: 20%;
+	padding-top: 10px;
+	list-style: none;
+} 
+.nav-item{
+	float: left;
+}
+.nav-item a{
+	display: block;
+	height: 35px;
+	font: 16px;
+	color: #333;
+    line-height: 35px;
+    text-decoration: none;
+    padding:0 25px;
+    letter-spacing: 5px;
+
+}
+.nav-item a:hover{
+	background: #3399cc;
+	box-shadow: 0 0 5px #ccc;
+	color: #fff;
+}
+/*
+.header{
+	height: 100px;
+	background:-moz-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(60%,#fefefe),color-stop(81%,#f2f2f2),color-stop(100%,#e1e1e1));
+    background:-webkit-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+    background:-o-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+    background:-ms-linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%);
+    background:linear-gradient(top,#fff 0,#fefefe 60%,#f2f2f2 81%,#e1e1e1 100%); 
+}
+.header .container{
+	height: 100px;
+	width: 1000px;
+}
+.header-top{
+	width: 100%;
+	height: 50px;
+}
+.header-title{
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #333;
+	font-family: 'arail' 'SimHei' sans-serif;
+	font-weight: bold;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+}
+.nav-items{
+	   padding-left: 120px;
+}
+.nav-item{
+	float: left;
+}
+.nav-item a{
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 0 25px;
+	color: #666;
+	font-size: 16px;
+	font-family: 'arail' 'SimHei' sans-serif;
+	text-decoration: none;
+}
+.nav-item a:hover{
+	color: #fff;
+	background: #006699;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	-webk-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+*/
+body{
+	background: #f1f4f5;
+}
+.clearfix{
+	clear: both;
+}
+/* main style */
+.main{
+
+}
+.main .container{
+	width: 1000px;
+	margin: 10px auto;
+
+
+}
+
+.main-top{
+	margin: 10px 0;
+	border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border: 1px solid #3399cc;
+    padding-bottom: 20px;
+   overflow: hidden;
+}
+.main-title{
+	 padding:10px 0px;
+	 font-size: 18px;	
+	 color: #fff;
+	 line-height: 30px;
+     height: 30px;
+     text-align: center;
+     background: #3399cc;
+     font-family: 'arial' 'SimHei' sans-serif;
+/*      border-top-right-radius: 8px;
+border-top-left-radius: 8px; */
+     
+}
+.operate-device-box{
+	margin-top: 20px;
+
+}
+.cur-device{
+
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 16px;
+	float: left;
+}
+.device-list{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	border: 1px solid #3399cc;
+	float: left;
+}
+.param-load-btns{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	margin-left: 45%;
+	float: left;
+}
+.param-load-btns a{
+	display: inline-block;
+	float: left;
+	margin: 0 10px;
+}
+.file-select{
+	position: relative;
+	cursor: pointer;
+	zoom: 1;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	border: 1px solid #00a5f2;
+	padding:0 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #3399cc;
+}
+.file-select span img{
+	width: 30px;
+	height: 30px;
+
+}
+.file-select input{
+	display: inline-block;
+	width: 100%; 
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%; 
+    opacity: 0; 
+    font-size: 14px;
+    filter: alpha(opacity=0); 
+    cursor: pointer
+} 
+.btn{
+
+	display: inline-block;
+	padding:0 20px;
+	font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+	letter-spacing: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #00a5f2;
+    background:-moz-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(60%,#fefefe),color-stop(81%,#f2f2f2),color-stop(100%,#e1e1e1));
+    background:-webkit-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:-o-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:-ms-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%); 
+    color: #fff;
+    border: 1px solid #0095d2;
+}
+.btn:hover{
+	box-shadow: 0 0 5px #00a5f2;
+	-o-box-shadow: 0 0 5px #00a5f2;
+	-webkit-box-shadow: 0 0 5px #00a5f2;
+	-ms-box-shadow: 0 0 5px #00a5f2;
+	-moz-box-shadow: 0 0 5px #00a5f2;
+}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-top">
+				<h1 class="header-title">核辐射数据采集与管理系统</h1>
+			</div>
+			<div class="nav">
+				<ul class="nav-items">
+					<li class="nav-item"><a href="">首   页</a></li>
+					<li class="nav-item"><a href="">数据采集</a></li>
+					<li class="nav-item"><a href="">数据查询</a></li>
+					<li class="nav-item"><a href="">数据处理</a></li>
+					<li class="nav-item"><a href="">关于我们</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="main-top">
+				<h2 class="main-title">采集设备参数配置</h2>
+				<div class="operate-device-box">
+					<span class="cur-device">当前设备:</span>
+					<select class="device-list" name="deviceList">
+						<option value="1" selected="selected" >串口</option>
+						<option value="2">网络接口</option>
+					</select>
+					<div class="param-load-btns">
+						<a class="file-select" href="javascript:;"><input type="file" name="file" class="up-file"><span><img src="images/file.png" alt="选择文件"></span></a>
+						<a class="btn  param-upload-btn" href="javascript:;">参数导入</a>
+						<a class="btn  param-download-btn" href="">参数导出</a>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

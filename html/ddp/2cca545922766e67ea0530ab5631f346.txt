@@ -1,0 +1,3 @@
+ php artisan key:generate
+Application key [IUpHHJb0uuXqpy8aUqnFKZ2fhxwZfEas] set successfully.
+

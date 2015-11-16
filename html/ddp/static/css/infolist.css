@@ -1,0 +1,116 @@
+body{
+	background: #f1f4f5;
+}
+
+.main .container{
+	width: 1000px;
+	margin:20px auto;
+}
+.item-list{
+	width: 900px;
+	padding: 20px 50px;
+}
+.item{
+	width: 800px;
+	height: 130px;
+	margin: 20px 50px;
+	border-radius: 10px;
+	background: #e1e1e1;
+	overflow: hidden;
+}
+
+
+.item-title{
+	line-height: 30px;
+	height: 30px;
+	text-align: left;
+	padding-left:20px; 
+}
+.item-title a{
+	font-size: 16px;
+	color:#3399cc;
+}
+.item-title a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+.brief{
+	padding: 5px 30px;
+	height: 60px;
+}
+.brief p{
+	text-indent: 20px;
+	font-size: 12px;
+	color: #666;
+	font-style: italic;
+	overflow: hidden;
+}
+.brief a{
+	color: #3399cc;
+}
+.brief a:hover{
+	text-decoration: underline;
+}
+
+
+
+.item-info{
+	height: 20px;
+	float: right;
+	margin-right: 20px;
+}
+.item-info span{
+	display: inline-block;
+	line-height: 20px;
+	height: 20px;
+	font-size: 12px;
+	font-style: italic;
+	color: #333;
+	display: inline-block;
+}
+.item-info a{
+	font-size: 12px;
+	color: #333;
+}
+
+
+
+/* footer */
+.footer{
+	height: 100px;
+	position: relative;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.footer .container{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 45%;
+}
+.footer .contact{
+   	padding-left: 15%;
+}
+.footer .contact a{
+	color: #006699;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.footer .contact a:hover{
+	text-decoration: underline;
+}
+.footer .statement{
+	 color: #333;
+	 font-size: 13px;
+}
+.footer .statement span a{
+	color: #006699;
+	text-decoration: none;
+}
+.footer .statement span a:hover{
+	text-decoration: underline;
+}

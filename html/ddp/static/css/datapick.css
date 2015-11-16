@@ -1,0 +1,239 @@
+body{
+	background: #f1f4f5;
+	font-family: 'Microsoft Yahei' 'arial' 'SimHei' sans-serif;
+}
+.clearfix{
+	clear: both;
+}
+/* main style */
+.main{
+
+}
+.main .container{
+	width: 1000px;
+	margin: 10px auto;
+
+
+}
+
+.main-top{
+	margin: 10px 0;
+	border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #3399cc;
+}
+.main-title{
+	 padding:10px 0px;
+	 font-size: 18px;	
+	 color: #fff;
+	 line-height: 30px;
+     height: 30px;
+     text-align: center;
+     background: #3399cc;
+     font-family: 'Microsoft Yahei' 'arial' 'SimHei' sans-serif;
+   
+}
+.device-operate-box{
+	margin-top: 20px;
+	padding-left: 30px;
+
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 0 ;
+
+}
+
+.cur-device{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 16px;
+	float: left;
+}
+.device-list{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	border: 1px solid #3399cc;
+	float: left;
+	width: 100px;
+}
+.param-load-btns{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	margin-left: 45%;
+	float: left;
+}
+.param-load-btns a{
+	display: inline-block;
+	float: left;
+	margin: 0 10px;
+}
+.file-select{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	/* border: 1px solid #00a5f2; */
+	padding:0 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #3399cc;
+	zoom: 1;
+}
+.file-select span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.file-select span img{
+	width: 30px;
+	height: 30px;
+
+}
+.file-select input{
+	display: inline-block;
+	width: 100%; 
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%; 
+    opacity: 0; 
+    font-size: 14px;
+    filter: alpha(opacity=0); 
+    cursor: pointer;
+} 
+/* device config */
+.device{
+     border-radius: 5px;
+     overflow: hidden;
+     height: 400px;
+     box-shadow: 0 0 10px #666;
+     -o-box-shadow: 0 0 10px #666;
+     -webkit-box-shadow: 0 0 10px #666;
+     -moz-box-shadow: 0 0 10px #666;
+     -ms-box-shadow: 0 0 10px #666;
+}
+.device-box{
+	background: #e1e1e1;
+	position: relative;
+}
+
+.specific-device{
+	border-radius: 5px;
+	height: 370px;
+    padding: 30px 40px;
+    padding-bottom: 0;
+    padding-right: 0;
+	width: 400px;
+
+}
+.param-note{
+	position: absolute;
+	top: 5%;
+	left: 60%;
+	width: 30%;
+	height: 80%;
+	padding: 10px 10px;
+	background: #e1e1e1;
+	border-radius: 20px;
+	box-shadow: 0 0 10px #ccc;
+
+}
+.com{
+
+}
+.internet-interface{
+	
+}
+.param{
+	height: 40px;
+	line-height: 40px;
+}
+.d_name{
+	font-size: 14px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    text-align: center;
+}
+.d_input{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.device-btns{
+	margin-top: 40px;
+	padding-left: 100px;
+}
+.btn{
+
+	display: inline-block;
+	padding:0 20px;
+	font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+	letter-spacing: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #00a5f2;
+    background:-moz-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(60%,#fefefe),color-stop(81%,#f2f2f2),color-stop(100%,#e1e1e1));
+    background:-webkit-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:-o-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:-ms-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%); 
+    color: #fff;
+    border: 1px solid #0095d2;
+}
+.btn:hover{
+	box-shadow: 0 0 5px #00a5f2;
+	-o-box-shadow: 0 0 5px #00a5f2;
+	-webkit-box-shadow: 0 0 5px #00a5f2;
+	-ms-box-shadow: 0 0 5px #00a5f2;
+	-moz-box-shadow: 0 0 5px #00a5f2;
+}
+/* footer */
+.footer{
+	height: 100px;
+	position: relative;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.footer .container{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 45%;
+}
+.footer .contact{
+   	padding-left: 15%;
+}
+.footer .contact a{
+	color: #006699;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.footer .contact a:hover{
+	text-decoration: underline;
+}
+.footer .statement{
+	 color: #333;
+	 font-size: 13px;
+}
+.footer .statement span a{
+	color: #006699;
+	text-decoration: none;
+}
+.footer .statement span a:hover{
+	text-decoration: underline;
+}

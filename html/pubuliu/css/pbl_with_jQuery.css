@@ -1,0 +1,19 @@
+
+#main{
+	position: relative;
+}
+.box{
+	padding: 10px 0 0 15px;
+	float: left;
+}
+.img-box{
+	padding: 10px 10px;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.img-box img{
+	display: block;
+	width: 170px;
+	height: auto;
+}
