@@ -35,7 +35,7 @@ class AuthController extends Controller
       *
       *
       */
-    protected $loginPath = 'user/login';
+    protected $loginPath = 'auth/login';
 
     /**
      * Create a new authentication controller instance.
@@ -56,8 +56,8 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:60',
-            'email' => 'required|email|max:60|unique:users',
+            'name' => 'required|max:255',
+            'email' => 'required|email|max:225|unique:users',
             'password' => 'required|confirmed|min:6',
         ]);
     }

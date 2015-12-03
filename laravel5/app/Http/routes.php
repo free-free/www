@@ -63,9 +63,9 @@ are specified in an array format as the first parameter to the Route::group meth
 you may use the middleware key in the group attribute array. 
 Middleware will be executed in the order you define this array:*/
 Route::group(['middleware'=>'auth'],function(){
-	Route::get('login',function(){
+	/*Route::get('login',function(){
 			return 'admin login';
-	});
+	});*/
 	Route::get('editprofile',function(){
 			return 'edit admin profile';
 	});
@@ -153,13 +153,59 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
+// Password reset link request routes...
+Route::get('password/email', 'Auth\PasswordController@getEmail');
+Route::post('password/email', 'Auth\PasswordController@postEmail');
 
+// Password reset routes...
+Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
+Route::post('password/reset', 'Auth\PasswordController@postReset');
+
+
+
+Route::get('/home',function(){
+	return redirect('/');
+});
 Route::get('authlogin',['middleware'=>'auth',function(){
 	return 'hello';
 }]);
+/*
+raw SQL
+*/
+Route::get('dbc/select','DBController@select');
+Route::get('dbc/insert','DBController@insert');
+Route::get('dbc/update','DBController@update');
+Route::get('dbc/delete','DBController@delete');
+/*
+Query builder
+*/
+Route::get('dbc/qb','DBController@queryBuilder');
 
-/**
- *
- * 
- *  self define AuthController to authenticates users;
- */
+/*
+	Log Service
+*/
+Route::get('log/log','LogController@log');
+
+/*	
+	filesytstem and cloud Storage Service
+*/
+Route::get('sc/put','StorageController@puts');
+Route::get('sc/get','StorageController@gets');
+Route::get('sc/has','StorageController@has');
+Route::get('sc/pro','StorageController@property');
+Route::get('sc/cpmv','StorageController@cpAndMv');
+Route::get('sc/add','StorageController@addTofile');
+Route::get('sc/del','StorageController@delete');
+Route::get('sc/other','StorageController@other');
+
+/*
+	Hash Service
+
+*/
+Route::get('hash/index','HashController@index');
+
+/*
+	Event Service
+
+*/
+Route::get('event/fire','EventController@fireEvent');

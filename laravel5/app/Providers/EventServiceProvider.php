@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-
+use Event;
 class EventServiceProvider extends ServiceProvider
 {
     /**
@@ -28,6 +28,16 @@ class EventServiceProvider extends ServiceProvider
     {
         parent::boot($events);
 
-        //
+        /*
+        $events->listen('event.name', function ($foo, $bar) {
+        
+        });
+        $events->listen('event.*', function (array $data) {
+                
+        });
+        Event::listen('event.*',function(){
+    
+        });
+        */
     }
 }

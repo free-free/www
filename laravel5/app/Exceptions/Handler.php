@@ -38,6 +38,13 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
+        if($e instanceof FileNotFoundException){ 
+            $status = $e->getStatusCode();
+            if(view()->exists("errors.404")){
+                    return response()->view("errors.404",['exception' => $e], $status);    
+            }
+        }
+
         return parent::render($request, $e);
     }
 }

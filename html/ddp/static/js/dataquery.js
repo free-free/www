@@ -136,7 +136,7 @@ $(function(){
 	 			l_latitude=$('.l_latitude').val()||'',
 	 			u_latitude=$('.u_latitude').val()||'',
 	 			q=[],
-	 			exp=/^[0-9]*\.*[0-9]*$/;
+	 			exp=/^-?[0-9]*\.*[0-9]*$/;
 	 			if(!exp.test(l_longitude)||!exp.test(u_longitude)||!exp.test(l_latitude)||!exp.test(u_latitude)){
 	 				alert('经纬度只能为数值类型');
 	 				return ;
@@ -194,9 +194,12 @@ $(function(){
 	 	}else{
 	 		$('.lon_check_note').css('color','#336699').text('*');
 	 	}*/
-	 	var exp=/^[0-9]*\.*[0-9]*$/;
-	 	if(!exp.test($('.l_longitude').val())||!exp.test($('.u_longitude').val())){
-	 		$('.lon_check_note').css('color','#f00').text('经度只能为数值');
+	 	
+	 	var exp=/^-?[0-9]*\.*[0-9]*$/;
+	 	llngtd=$('.l_longitude').val();
+	 	ulngtd=$('.u_longitude').val();
+	 	if(!exp.test(llngtd)||!exp.test(ulngtd)||Math.abs(ulngtd/1)>180||Math.abs(llngtd/1)>180){
+	 		$('.lon_check_note').css('color','#f00').text('请正确填写经度');
 	 	}else{
 	 		$('.lon_check_note').css('color','#336699').text('*');
 	 	}
@@ -209,9 +212,12 @@ $(function(){
 	 	}else{
 	 		$('.lat_check_note').css('color','#336699').text('*');
 	 	}*/
-	 	var exp=/^[0-9]*\.*[0-9]*$/;
-	 	if(!exp.test($('.l_latitude').val())||!exp.test($('.u_latitude').val())){
-	 		$('.lat_check_note').css('color','#f00').text('经度只能为数值');
+
+	 	var exp=/^-?[0-9]*\.*[0-9]*$/;
+	 	llttd=$('.l_latitude').val();
+	 	ulttd=$('.u_latitude').val();
+	 	if(!exp.test(llttd)||!exp.test(ulttd)||Math.abs(llttd/1)>90||Math.abs(ulttd/1)>90){
+	 		$('.lat_check_note').css('color','#f00').text('请正确填写纬度');
 	 	}else{
 	 		$('.lat_check_note').css('color','#336699').text('*');
 	 	}
