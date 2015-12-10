@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Event;
+use Log;
 class EventServiceProvider extends ServiceProvider
 {
     /**
@@ -39,5 +40,9 @@ class EventServiceProvider extends ServiceProvider
     
         });
         */
+        /* just before sending mail messages*/
+        /*$events->listen('mailer.sending',function($message){
+                Log::info('send a mail');
+        });*/
     }
 }

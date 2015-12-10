@@ -209,3 +209,21 @@ Route::get('hash/index','HashController@index');
 
 */
 Route::get('event/fire','EventController@fireEvent');
+
+/*
+	Locale Service
+*/
+Route::get('locale/set/{set}','LocaleController@localeSet');
+Route::get('locale/get','LocaleController@localeGet');
+
+/*
+	Mail Service
+
+*/
+Route::get('mail/send','MailController@send');
+
+
+/*
+	Queue Service
+*/
+Route::get('queue/sendmail','QueueController@sendRemindEmail');

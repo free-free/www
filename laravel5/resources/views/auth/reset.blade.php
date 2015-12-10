@@ -1,4 +1,4 @@
-form method="POST" action="/password/reset">
+<form method="POST" action="/password/reset">
     {!! csrf_field() !!}
     <input type="hidden" name="token" value="{{ $token }}">
 
