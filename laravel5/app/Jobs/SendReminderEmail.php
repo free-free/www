@@ -31,7 +31,7 @@ class SendReminderEmail extends Job implements SelfHandling, ShouldQueue
     public function handle(Mailer $mailer)
     {
         //
-        $mailer->send('emails.reminder',['name'=>'john'],function($message){
+        $mailer->send('emails.reminder',['msg'=>'john'],function($message){
             $message->to('19941222hb@gmail.com','shabi')->subject('hello john');
         });
         if($this->attempts()>4){
