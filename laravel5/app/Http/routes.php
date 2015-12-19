@@ -227,3 +227,9 @@ Route::get('mail/send','MailController@send');
 	Queue Service
 */
 Route::get('queue/sendmail','QueueController@sendRemindEmail');
+
+/*
+	Session Service
+*/
+Route::get('session/get','SessionController@session_get');
+Route::get('session/store','SessionController@session_store');
