@@ -1,0 +1,118 @@
+.uplist{
+	height: 100px;
+}
+#frm{
+	width:600px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	background: #006699;
+}
+ul{
+	padding: 0px; 
+}
+#frm .ulist1{
+    width:400px;
+    height:24px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+#frm .ulist1 .filelist{
+	height: 22px;
+	width:100px;
+	font-size: 16px;
+	line-height: 22px;
+	float: left;
+}
+#frm .filechos .file-box{
+	position:relative;
+	left:20px;
+} 
+#frm .filechos .txt{
+	height:22px;
+	border:1px solid #cdcdcd;
+	width:170px;
+} 
+#frm .filechos .btn{
+    background-color:#FFF;
+    border:1px solid #CDCDCD;
+    height:24px;
+    width:70px;
+    
+} 
+#frm .filechos .file{ 
+	position:absolute;
+	top:4px;
+	right:30px;
+	height:22px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width:260px;
+}
+#frm .ulist2{
+    width:400px;
+    height:24px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+#frm .ulist2 .titlelist{
+	height: 22px;
+	width:100px;
+	font-size: 16px;
+	line-height: 22px;
+	float: left;
+}
+#frm .ulist2 .titletxt{
+    height:22px;
+	width:170px;
+	margin-left: -40px;
+}
+#frm .ulist3{
+    width:400px;
+    height:24px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+#frm .ulist3 .authorlist{
+	height: 22px;
+	width:100px;
+	font-size: 16px;
+	line-height: 22px;
+	float: left;
+}
+#frm .ulist3 .authortxt{
+    height:22px;
+	width:170px;
+	margin-left: -40px;
+}
+#frm .ulist4{
+    width:400px;
+    height:70px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+#frm .ulist4 .desclist{
+	height: 22px;
+	width:100px;
+	font-size: 16px;
+	line-height: 22px;
+	float: left;
+}
+#frm .ulist4 .desctxt{
+    height:60px;
+	width:170px;
+	margin-left: -40px;
+}
+#frm .submit{
+	width:70px;
+	height:24px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background-color:#FFF;
+}

@@ -1,0 +1,134 @@
+#title{
+	width:1072px;
+	height:80px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px groove #006699;
+	background-color: #006699;
+}
+#title h1{
+	color: #FFFFFF;
+}
+#meaus{
+	width:172px;
+	height:auto;
+	min-height: 600px;
+	margin-left: 130px;
+	margin-top: 30px;
+	float: left;
+	border: 3px groove #006699;
+}
+#content{
+	width:880px;
+	height:auto;
+	min-height: 600px;
+	margin-top: 30px;
+	margin-left: 320px;
+	text-align: center;
+	border: 3px groove #006699;
+}
+#end{
+	width:1072px;
+	height:100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border: 3px groove #006699;
+}
+li{
+	list-style-type: none;
+}
+.uplist,.infolist,.managelist{
+	padding:0px;
+	height:30px;
+	overflow: hidden;
+	border: 5px groove #FFFFFF;
+	background-color: #008B8B ;
+	margin:2px;
+
+}
+.uplist .titlelist{
+	position: relative;
+	left:20px;
+	height:30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+.uplist .titlelist a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.uplist .list{
+	position: relative;
+	left:45px;
+	top:5px;
+	height:20px;
+	line-height: 20px;
+}
+.uplist .list a{
+	text-decoration: none;
+	color:black;
+	font-weight: bolder;
+}
+.uplist .list a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.infolist .titlelist{
+	position: relative;
+	left:20px;
+	height:30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+.infolist .titlelist a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.infolist .list{
+	position: relative;
+	left:45px;
+	top:5px;
+	height:20px;
+	line-height: 20px;
+}
+.infolist .list a{
+	text-decoration: none;
+	color:black;
+	font-weight: bolder;
+}
+.infolist .list a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.managelist .passlist{
+	position: relative;
+	left:20px;
+	height:30px;
+	line-height: 30px;
+	font-size: 20px;
+
+}
+.managelist .passlist a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.managelist .list{
+	position: relative;
+	left:45px;
+	top:5px;
+	height:20px;
+	line-height: 20px;
+}
+.managelist .list a{
+	text-decoration: none;
+	color:black;
+	font-weight: bolder;
+}
+.managelist .list a:hover{
+	text-decoration:underline;
+	color:red;
+}
+

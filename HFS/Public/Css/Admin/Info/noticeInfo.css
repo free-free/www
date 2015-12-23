@@ -1,0 +1,13 @@
+.infolist{
+	height: 100px;
+}
+table{
+	width:800px;
+	max-height:500px;
+	margin-left: auto;
+	margin-right: auto;
+	border:3px solid black;
+}
+table tr td{
+	text-align: left;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>news page</title>
+	<link rel="stylesheet" href="__CSS__/Index/header.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/Index/showNews.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-top">
+				<h1 class="header-title">核辐射数据采集与管理系统</h1>
+			</div>
+			<div class="nav">
+				<ul class="nav-items">
+					<li class="nav-item"><a href="__MODULE__/Index">首   页</a></li>
+					<li class="nav-item"><a href="__MODULE__/Datapick">数据采集</a></li>
+					<li class="nav-item"><a href="__MODULE__/Dataquery">数据查询</a></li>
+					<li class="nav-item"><a href="__MODULE__/Dataprocess">数据处理</a></li>
+					<li class="nav-item"><a href="__MODULE__/Aboutus">关于我们</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="l-side-box">
+				<div class="related-box">
+					<h3>相关新闻</h3>
+					<dl>
+					  <volist name="allnewsData" id="lo">
+						<dd ><a href="__URL__/showNews?id=<{$lo.id}>" class="item"><span><{$lo.title}></span></a></dd>
+					  </volist>
+					</dl>
+				</div>
+			</div>
+			<div class="r-side-box">
+				
+					<h2 class="news-title"><{$title}></h2>
+					<div class="news-content">
+					<li class="news-info"><p>
+					  <notempty name="author">
+					    <span>作者：<{$author}></span>
+					  </notempty>
+					  <notempty name="time">
+					    <span>时间：<{$time}></span>
+					  </notempty>
+					</p></li>
+					
+					<div class="news-descs">
+					<notempty name="descs">
+					<span>简述：</span><{$descs}>
+					</notempty>
+					<notempty name="txt">
+					<p class="paragh">正文：</p>
+					<p class="paragh"><{$txt}></p>
+					</notempty>
+					</div>
+					<notempty name="id">
+					<li class="news-link"><a href="__MODULE__/Down/newsDownload?id=<{$id}>">请点击下载文件</a></li>
+					</notempty>
+					</div>
+					     
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<p class="contact"><a href=""> 联系我们:19941222hb@gmail.com</a></p>
+			<p class="statement">Copyright 2015,All Rights Reserved. <span><a href="">智能信号检测与核仪器组</a></span> 版权所有 复制必究</p>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript">window.jQuery||document.write('<script src="__JS__/jquery-1.11.3.min.js"><\/script>');</script>
+   <script type="text/javascript" src="__JS__/Index/news.js"></script>
+</html>

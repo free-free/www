@@ -1,0 +1,16 @@
+#frm{
+   width:600px;
+   height:200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 240px;
+   border: 2px solid black;
+   text-align: center;
+   background: #006699;
+}
+#frm table{
+	width:300px;
+	position: relative;
+	left:150px;
+	top:60px;
+}

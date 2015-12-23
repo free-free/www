@@ -1,0 +1,2222 @@
+[ 2015-10-24T00:04:42+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-10-24T00:05:26+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2015-10-24T00:05:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-10-24T00:05:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-10-24T00:05:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-10-24T00:05:48+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-10-24T00:06:11+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-10-24T00:06:22+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-10-24T00:06:38+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+
+[ 2015-10-24T00:06:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+
+[ 2015-10-24T00:07:03+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-24T00:10:21+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-10-24T00:10:23+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-10-24T00:10:33+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-10-24T00:10:34+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-10-24T00:10:34+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-10-24T00:10:35+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-10-24T00:10:35+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-10-24T00:10:35+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-10-24T00:10:35+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-10-24T00:10:35+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-10-24T00:10:35+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-10-24T00:10:37+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-10-24T00:10:37+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-10-24T00:10:37+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-10-24T00:11:02+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-10-24T00:11:36+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-10-24T00:12:03+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-10-24T00:12:04+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+
+[ 2015-10-24T00:12:04+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2015-10-24T00:12:04+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-10-24T00:12:04+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-10-24T00:12:05+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-10-24T00:12:05+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2015-10-24T00:12:05+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-10-24T00:12:05+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-10-24T00:12:33+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-10-24T00:13:05+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2015-10-24T00:13:06+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-10-24T00:14:26+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-10-24T00:14:55+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-10-24T00:14:56+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+
+[ 2015-10-24T00:15:28+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-10-24T00:15:46+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-10-24T00:16:49+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+
+[ 2015-10-24T00:16:51+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-10-24T00:17:21+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-10-24T00:17:33+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-10-24T00:17:34+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-10-24T00:17:41+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-10-24T00:17:49+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-10-24T00:18:02+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-10-24T00:19:41+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+
+[ 2015-10-24T00:19:42+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+
+[ 2015-10-24T00:19:42+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-10-24T00:20:18+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-10-24T00:20:39+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+
+[ 2015-10-24T00:20:41+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-10-24T00:21:33+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-10-24T00:21:33+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-10-24T00:21:34+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+
+[ 2015-10-24T00:21:34+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-10-24T00:21:50+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-10-24T00:21:50+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+
+[ 2015-10-24T00:22:27+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2015-10-24T00:22:28+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+
+[ 2015-10-24T00:22:38+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-10-24T00:22:46+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2015-10-24T00:23:19+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-24T00:23:29+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-10-24T00:23:37+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-10-24T00:23:45+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-10-24T00:23:53+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-10-24T00:25:21+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2015-10-24T00:25:21+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-10-24T00:25:22+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2015-10-24T00:25:23+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-10-24T00:25:23+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+
+[ 2015-10-24T00:25:23+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-10-24T00:25:40+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-10-24T00:26:10+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2015-10-24T00:26:37+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-10-24T00:26:45+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-10-24T00:28:57+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-10-24T00:28:59+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-10-24T00:29:22+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-10-24T00:29:23+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-10-24T00:29:57+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2015-10-24T00:29:57+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2015-10-24T00:29:57+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-10-24T00:29:58+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-10-24T00:29:58+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-10-24T00:29:58+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2015-10-24T00:31:16+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: XML标签语法错误 : name="<{$lo.important}
+
+[ 2015-10-24T00:31:26+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-10-24T00:31:27+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-10-24T00:31:53+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: XML标签语法错误 : value=1
+
+[ 2015-10-24T00:32:16+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-10-24T00:32:17+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-10-24T00:32:47+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-10-24T00:32:49+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-10-24T00:33:22+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-10-24T00:33:23+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2015-10-24T00:34:18+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-10-24T00:34:19+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-10-24T00:34:31+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-10-24T00:34:31+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-10-24T00:34:32+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-10-24T00:34:32+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-10-24T00:34:32+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-10-24T00:34:32+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-10-24T00:34:32+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-10-24T00:35:23+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-10-24T00:35:24+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-10-24T00:35:24+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-10-24T00:36:01+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+
+[ 2015-10-24T00:36:06+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-10-24T00:36:14+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeDel?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-10-24T00:36:17+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-10-24T10:28:21+08:00 ] ::1 /HFS/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-10-24T10:28:32+08:00 ] ::1 /HFS/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+
+[ 2015-10-24T10:28:33+08:00 ] ::1 /HFS/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-10-24T10:28:33+08:00 ] ::1 /HFS/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-10-24T10:28:34+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2015-10-24T10:28:35+08:00 ] ::1 /HFS/index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-10-24T10:28:36+08:00 ] ::1 /HFS/index.php/Admin/Upload/noticeUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-10-24T10:28:38+08:00 ] ::1 /HFS/index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-10-24T10:28:41+08:00 ] ::1 /HFS/index.php/Admin/Upload/noticeUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-10-24T10:28:43+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-10-24T10:28:45+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-10-24T10:28:48+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2015-10-24T10:28:51+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-10-24T10:28:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-10-24T10:28:57+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-10-24T10:28:59+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-10-24T10:29:01+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-10-24T10:29:04+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-10-24T10:29:07+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-10-24T10:29:08+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-10-24T10:36:33+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-10-24T10:36:35+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2015-10-24T10:36:36+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-10-24T10:37:02+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-10-24T10:37:18+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-10-24T10:37:20+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-10-24T10:37:58+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-10-24T10:40:52+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-10-24T10:40:59+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-10-24T10:41:02+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-10-24T10:42:24+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-10-24T10:42:27+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-10-24T10:44:51+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-10-24T10:44:56+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-10-24T10:44:59+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-10-24T10:46:01+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-10-24T10:46:05+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2015-10-24T10:46:19+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-10-24T10:46:19+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-10-24T10:46:20+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-10-24T10:46:20+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-10-24T10:46:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-10-24T10:46:55+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-10-24T10:46:59+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2015-10-24T10:47:02+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+
+[ 2015-10-24T10:47:58+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006372s ]
+
+[ 2015-10-24T10:48:07+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-10-24T10:48:10+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-10-24T10:49:22+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-10-24T10:49:30+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-10-24T10:49:38+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-10-24T10:49:40+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-10-24T10:50:53+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-10-24T10:50:56+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-10-24T10:51:05+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-10-24T10:53:08+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-10-24T10:53:47+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-10-24T10:53:50+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-10-24T10:54:28+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-10-24T10:54:31+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-10-24T10:54:39+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-10-24T10:55:18+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-10-24T10:56:26+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+
+[ 2015-10-24T10:56:28+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-10-24T10:56:32+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-10-24T10:56:33+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-10-24T10:56:36+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-10-24T10:56:45+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2015-10-24T10:57:07+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+
+[ 2015-10-24T10:57:42+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-10-24T10:57:44+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-10-24T10:57:46+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-10-24T10:58:23+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-10-24T10:58:26+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-10-24T10:58:34+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-10-24T11:00:33+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-10-24T11:00:34+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-10-24T11:00:42+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-24T11:00:46+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2015-10-24T11:01:52+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-10-24T11:01:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2015-10-24T11:01:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-10-24T11:01:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-10-24T11:01:54+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2015-10-24T11:01:56+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-10-24T11:02:17+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-10-24T11:02:24+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-10-24T11:02:27+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-10-24T11:02:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-10-24T11:02:54+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-10-24T11:02:54+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-10-24T11:02:54+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-10-24T11:02:54+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2015-10-24T11:02:54+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-10-24T11:02:55+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=I(%27get.id%27)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-10-24T11:02:58+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-10-24T11:03:04+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-10-24T11:03:12+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2015-10-24T11:03:15+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-10-24T11:22:44+08:00 ] ::1 /HFS/index.php/Admin/Action/newsMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-10-24T11:22:44+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2015-10-24T11:22:46+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-10-24T11:24:07+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-24T11:24:08+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-10-24T11:24:10+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2015-10-24T11:24:22+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-10-24T11:24:24+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-10-24T11:24:27+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-10-24T11:26:03+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-10-24T11:26:04+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-10-24T11:26:04+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-10-24T11:26:04+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-10-24T11:26:05+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-10-24T11:26:06+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-10-24T11:28:02+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-10-24T11:28:13+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-10-24T11:28:53+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-10-24T11:29:30+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2015-10-24T11:29:31+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2015-10-24T11:30:03+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2015-10-24T11:31:47+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-10-24T11:31:49+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-10-24T11:31:49+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-10-24T11:31:50+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2015-10-24T11:31:50+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-10-24T11:31:50+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-10-24T11:31:53+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2015-10-24T11:31:55+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-10-24T11:32:18+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-10-24T11:35:04+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-10-24T11:35:07+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-10-24T11:35:55+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-10-24T11:36:27+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-10-24T11:36:43+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-10-24T11:37:11+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-10-24T11:37:32+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-10-24T11:37:33+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2015-10-24T11:38:02+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-10-24T11:38:13+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+
+[ 2015-10-24T11:38:58+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-10-24T11:39:05+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-10-24T11:39:37+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-10-24T11:39:41+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+
+[ 2015-10-24T11:39:43+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+
+[ 2015-10-24T11:40:19+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-10-24T11:40:21+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-10-24T11:40:23+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-10-24T11:40:56+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-10-24T11:47:04+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-24T11:47:06+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-10-24T11:47:07+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-10-24T11:47:10+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-10-24T11:48:08+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-10-24T11:48:16+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-10-24T11:48:19+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-10-24T11:48:37+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2015-10-24T11:48:54+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-10-24T11:48:57+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-10-24T11:49:04+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-10-24T11:49:07+08:00 ] ::1 /HFS/index.php/Admin/Action/reportMod?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-10-24T11:49:10+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-10-24T11:50:45+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-10-24T11:50:52+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-10-24T11:50:58+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-10-24T11:52:49+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-10-24T11:52:53+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-10-24T11:56:49+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-10-24T11:57:15+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-10-24T11:57:16+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-10-24T11:57:27+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-10-24T11:57:40+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-10-24T11:59:39+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-10-24T11:59:43+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-10-24T11:59:49+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-10-24T12:00:17+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-10-24T12:00:52+08:00 ] ::1 /HFS/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-10-24T12:00:58+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-10-24T12:02:05+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-10-24T12:02:06+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-10-24T12:02:09+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+
+[ 2015-10-24T12:02:50+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-10-24T12:02:53+08:00 ] ::1 /HFS/index.php/Admin/Action/reportDel?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-10-24T12:02:53+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-10-24T12:02:59+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-10-24T12:03:00+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2015-10-24T12:03:01+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-10-24T12:03:08+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-10-24T12:03:11+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-10-24T12:03:11+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-10-24T12:03:12+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-10-24T12:05:51+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-10-24T12:05:53+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+
+[ 2015-10-24T12:13:03+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-10-24T12:13:05+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-10-24T12:14:04+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-10-24T12:14:05+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-10-24T12:14:05+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-10-24T12:14:05+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+
+[ 2015-10-24T12:15:33+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-10-24T12:15:34+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-10-24T12:15:34+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-10-24T12:17:03+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-10-24T12:17:04+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-10-24T12:17:24+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-10-24T12:17:35+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-10-24T12:17:36+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-10-24T12:17:52+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2015-10-24T12:18:44+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+
+[ 2015-10-24T12:18:47+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-10-24T12:19:41+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-24T12:19:46+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-10-24T12:19:50+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeMod?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-10-24T12:21:02+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-10-24T12:21:05+08:00 ] ::1 /HFS/index.php/Admin/Action/noticeDel?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-10-24T12:21:05+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002726s ]
+
+[ 2015-10-24T12:21:06+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-10-24T12:28:40+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-10-24T12:28:55+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-10-24T12:28:56+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-10-24T12:29:25+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-10-24T12:29:26+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-10-24T12:29:26+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-10-24T12:29:26+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-10-24T12:29:35+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-10-24T12:29:36+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-10-24T12:29:36+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-10-24T12:29:36+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-10-24T12:29:37+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-10-24T12:30:46+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+
+[ 2015-10-24T12:30:47+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-10-24T12:30:47+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-10-24T12:30:47+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2015-10-24T12:30:48+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-10-24T12:31:26+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+
+[ 2015-10-24T12:31:26+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-10-24T12:31:27+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-10-24T12:31:27+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-10-24T12:31:27+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-10-24T12:31:27+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-10-24T12:32:28+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-10-24T12:32:29+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2015-10-24T12:32:47+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-10-24T12:33:24+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-10-24T12:33:25+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-10-24T12:33:31+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-10-24T12:33:52+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+
+[ 2015-10-24T12:35:05+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-10-24T12:35:06+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-10-24T12:35:06+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2015-10-24T12:35:06+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-10-24T12:35:22+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-10-24T12:35:54+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-10-24T12:35:55+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-10-24T12:35:55+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-10-24T12:35:55+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2015-10-24T12:36:07+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-10-24T12:36:16+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-10-24T12:36:47+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-10-24T12:36:58+08:00 ] ::1 /HFS/index.php/Admin/Action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012546s ]
+
+[ 2015-10-24T12:38:59+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-10-24T12:39:05+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-10-24T12:39:05+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-10-24T12:39:57+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-10-24T12:39:58+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-10-24T12:39:59+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-10-24T12:40:03+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-10-24T12:40:03+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-10-24T12:40:04+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-10-24T12:40:05+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2015-10-24T12:40:05+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-10-24T12:40:41+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-10-24T15:06:49+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011654s ]
+
+[ 2015-10-24T15:06:52+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-10-24T15:07:00+08:00 ] ::1 /HFS/index.php/Admin/Info/noticeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-10-24T15:07:02+08:00 ] ::1 /HFS/index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-10-24T15:07:03+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-10-24T15:07:05+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-10-24T15:19:43+08:00 ] ::1 /HFS/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-10-24T15:19:45+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-10-24T15:20:14+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-10-24T15:20:17+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-10-24T15:22:04+08:00 ] ::1 /HFS/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-10-24T15:22:06+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-10-24T15:22:35+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-10-24T15:26:44+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-10-24T15:26:47+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-10-24T15:26:55+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-10-24T15:27:01+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-10-24T15:27:04+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-10-24T15:27:05+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-10-24T15:28:11+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-10-24T15:28:29+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+
+[ 2015-10-24T15:30:08+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-10-24T15:30:35+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-10-24T16:02:06+08:00 ] ::1 /HFS/index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-10-24T16:02:40+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-10-24T16:02:56+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-10-24T16:10:10+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-10-24T16:10:42+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-10-24T16:14:24+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-10-24T16:14:33+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-10-24T16:14:35+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-10-24T16:16:12+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-10-24T16:16:13+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+
+[ 2015-10-24T16:16:38+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2015-10-24T16:16:45+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-10-24T16:16:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-10-24T16:17:28+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-10-24T16:17:33+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+
+[ 2015-10-24T16:17:39+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-10-24T16:17:41+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-24T16:18:28+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-10-24T16:19:45+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-10-24T16:19:46+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-10-24T16:19:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-10-24T16:19:47+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-10-24T16:19:53+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-10-24T16:19:56+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-24T16:20:06+08:00 ] ::1 /HFS/index.php/Admin/Action/newsDel?id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-10-24T16:21:14+08:00 ] ::1 /HFS/index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2015-10-24T16:21:20+08:00 ] ::1 /HFS/index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-10-24T16:22:12+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-10-24T16:23:11+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-10-24T17:29:53+08:00 ] ::1 /HFS/index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-10-24T17:32:48+08:00 ] ::1 /HFS/index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+

@@ -1,0 +1,32 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" href="__CSS__/Safemanage/passMod.css"></block>
+<block name="javas"><script src="__JS__/Safemanage/passmod.js" type="text/javascript"></script></block>
+<block name="content">
+    <div id="content">
+       <h1>修改密码</h1>
+       <form id="frm" method="post" action="__URL__/passMod">
+          <ul class="passmod1">
+              <li  class="list"><font color="red">*</font>密码</li>
+              <li>
+              <input type="hidden" name="user" value="<{$user}>">
+              <input class="pass" type="password" name="oldpass" value="">
+              <span style="color:red"></span>
+              </li>
+          </ul>
+          <ul class="passmod2">
+              <li  class="list"><font color="red">*</font>新密码</li>
+              <li><input class="pass" type="password" name="password" value=""></li>
+          </ul>
+          <ul class="passmod3">
+             <li  class="list"><font color="red">*</font>再次输入</li>
+             <li><input class="pass" type="password" name="rpassword" value=""></li>
+          </ul>
+          <ul class="passmod4">
+             <li  class="list"><font color="red">*</font>验证码</li>
+             <li><input class="pass" type="text" name="code" value=""></li>
+             <li ><img class="code" src="__URL__/vcode" alt="vcode" onclick="this.src='__URL__/vcode?random=+Math.random()'"></li>
+          </ul>
+          <li><input type="submit" class="submit" name="sub" value="确定" disabled></li>
+       </form>
+	</div>
+</block>

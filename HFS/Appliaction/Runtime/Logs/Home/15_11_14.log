@@ -1,0 +1,354 @@
+[ 2015-11-14T11:42:59+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:15+08:00 ] ::1 /HFS/index.php/Home/Index/showNotice?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:18+08:00 ] ::1 /HFS/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:20+08:00 ] ::1 /HFS/index.php/Home/Index/showNews?id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:22+08:00 ] ::1 /HFS/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:26+08:00 ] ::1 /HFS/index.php/Home/Index/showReport?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:27+08:00 ] ::1 /HFS/index.php/Home/Down/reportDownload?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:38+08:00 ] ::1 /HFS/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T11:43:38+08:00 ] ::1 /HFS/index.php/Home/Down/reportDownload?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T12:26:00+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.014637s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048380s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T12:26:21+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T12:26:23+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:19:56+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:21:43+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:21:44+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:24:56+08:00 ] ::1 /HFS/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:25:05+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:25:07+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:25:19+08:00 ] ::1 /HFS/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:26:08+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:26:10+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:29:41+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:29:42+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:30:34+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:30:35+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:31:05+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:31:06+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:31:34+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:31:36+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:31:36+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T13:31:42+08:00 ] ::1 /HFS/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:26:31+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:26:35+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:26:36+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:50:04+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:54:07+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:57:24+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:57:25+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:57:30+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:57:32+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:57:37+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:59:30+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T21:59:55+08:00 ] ::1 /HFS/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:00:00+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:01:49+08:00 ] ::1 /HFS/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:01:50+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:01:50+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:16:35+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:16:37+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:16:38+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:17:13+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:17:14+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:17:15+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:28:09+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:28:11+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T22:28:12+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T23:39:17+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T23:39:19+08:00 ] ::1 /HFS/index.php/Home/Index/logoShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-14T23:39:21+08:00 ] ::1 /HFS/index.php/Home/Index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+

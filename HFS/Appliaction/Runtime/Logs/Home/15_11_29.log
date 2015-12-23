@@ -1,0 +1,397 @@
+[ 2015-11-29T00:00:36+08:00 ] ::1 /HFS/index.php/Home/dataprocess.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:00:43+08:00 ] ::1 /HFS/index.php/Home/Dataprocess/dataPro?0.019451423548161983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `think_doserate` [ RunTime:0.006379s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate`  [ RunTime:0.001084s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.010064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM003' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.016187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM003' LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.005080s ]
+NOTIC: [8] Undefined variable: map G:\wamp\www\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 327 行.
+SQL: SELECT `legendName` FROM `think_gammapic`  [ RunTime:0.142603s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-3' ORDER BY collectTime desc  [ RunTime:0.444515s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-3' LIMIT 1   [ RunTime:0.043117s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-3' LIMIT 1   [ RunTime:0.039822s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152Cs-137-4' ORDER BY collectTime desc  [ RunTime:0.136169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152Cs-137-4' LIMIT 1   [ RunTime:0.038959s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152Cs-137-4' LIMIT 1   [ RunTime:0.041488s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-5-2400' ORDER BY collectTime desc  [ RunTime:0.064805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-5-2400' LIMIT 1   [ RunTime:0.039537s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-5-2400' LIMIT 1   [ RunTime:0.044001s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-2' ORDER BY collectTime desc  [ RunTime:0.092133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-2' LIMIT 1   [ RunTime:0.047507s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-2' LIMIT 1   [ RunTime:0.047004s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-800' ORDER BY collectTime desc  [ RunTime:0.066576s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-800' LIMIT 1   [ RunTime:0.042273s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-800' LIMIT 1   [ RunTime:0.041445s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-7' ORDER BY collectTime desc  [ RunTime:0.052880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-7' LIMIT 1   [ RunTime:0.041644s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-7' LIMIT 1   [ RunTime:0.043009s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-2' ORDER BY collectTime desc  [ RunTime:0.055103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-2' LIMIT 1   [ RunTime:0.042931s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-2' LIMIT 1   [ RunTime:0.045990s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-1200' ORDER BY collectTime desc  [ RunTime:0.042861s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-1200' LIMIT 1   [ RunTime:0.041568s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-1200' LIMIT 1   [ RunTime:0.033294s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Co-60-0-1200' ORDER BY collectTime desc  [ RunTime:0.045898s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Co-60-0-1200' LIMIT 1   [ RunTime:0.035845s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Co-60-0-1200' LIMIT 1   [ RunTime:0.038621s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-800' ORDER BY collectTime desc  [ RunTime:0.045987s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-800' LIMIT 1   [ RunTime:0.041443s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-800' LIMIT 1   [ RunTime:0.044501s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-NO-EN-0-3300' ORDER BY collectTime desc  [ RunTime:0.043584s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-NO-EN-0-3300' LIMIT 1   [ RunTime:0.042874s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-NO-EN-0-3300' LIMIT 1   [ RunTime:0.039855s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-NO-Pb-1200' ORDER BY collectTime desc  [ RunTime:0.045032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-NO-Pb-1200' LIMIT 1   [ RunTime:0.037432s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-NO-Pb-1200' LIMIT 1   [ RunTime:0.038750s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-4' ORDER BY collectTime desc  [ RunTime:0.049615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-4' LIMIT 1   [ RunTime:0.043146s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-4' LIMIT 1   [ RunTime:0.044857s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-0-1200' ORDER BY collectTime desc  [ RunTime:0.050558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-0-1200' LIMIT 1   [ RunTime:0.037290s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-0-1200' LIMIT 1   [ RunTime:0.041030s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Co-60-120' ORDER BY collectTime desc  [ RunTime:0.065327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Co-60-120' LIMIT 1   [ RunTime:0.039843s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Co-60-120' LIMIT 1   [ RunTime:0.041876s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-1200' ORDER BY collectTime desc  [ RunTime:0.042531s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-1200' LIMIT 1   [ RunTime:0.047009s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-1200' LIMIT 1   [ RunTime:0.039354s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-1' ORDER BY collectTime desc  [ RunTime:0.055985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-1' LIMIT 1   [ RunTime:0.045389s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-1' LIMIT 1   [ RunTime:0.041360s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS137-NO-EN-0-3300' ORDER BY collectTime desc  [ RunTime:0.045634s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS137-NO-EN-0-3300' LIMIT 1   [ RunTime:0.037279s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS137-NO-EN-0-3300' LIMIT 1   [ RunTime:0.040242s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-10-1200' ORDER BY collectTime desc  [ RunTime:0.053700s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-10-1200' LIMIT 1   [ RunTime:0.038525s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-10-1200' LIMIT 1   [ RunTime:0.042443s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-137-5-50-2400' ORDER BY collectTime desc  [ RunTime:0.050381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-137-5-50-2400' LIMIT 1   [ RunTime:0.039076s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-137-5-50-2400' LIMIT 1   [ RunTime:0.041235s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.006728s ]
+NOTIC: [8] Undefined variable: map G:\wamp\www\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 374 行.
+SQL: SELECT `legendName` FROM `think_gammaphoto`  [ RunTime:0.000272s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `think_dmsr` [ RunTime:0.065294s ]
+NOTIC: [8] Undefined variable: map G:\wamp\www\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 415 行.
+SQL: SELECT `legendName` FROM `think_dmsr`  [ RunTime:0.015937s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.027056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-11-29T00:01:37+08:00 ] ::1 /HFS/index.php/Home/Dataprocess/dataPro?0.8302804469130933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `think_doserate` [ RunTime:0.019728s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate`  [ RunTime:0.000359s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000443s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM003' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM003' LIMIT 1   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.005605s ]
+NOTIC: [8] Undefined variable: map G:\wamp\www\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 327 行.
+SQL: SELECT `legendName` FROM `think_gammapic`  [ RunTime:0.142216s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-3' ORDER BY collectTime desc  [ RunTime:0.055575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-3' LIMIT 1   [ RunTime:0.044848s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-3' LIMIT 1   [ RunTime:0.040602s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152Cs-137-4' ORDER BY collectTime desc  [ RunTime:0.050427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152Cs-137-4' LIMIT 1   [ RunTime:0.044608s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152Cs-137-4' LIMIT 1   [ RunTime:0.042703s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-5-2400' ORDER BY collectTime desc  [ RunTime:0.046506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-5-2400' LIMIT 1   [ RunTime:0.036357s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-5-2400' LIMIT 1   [ RunTime:0.031326s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-2' ORDER BY collectTime desc  [ RunTime:0.074412s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-2' LIMIT 1   [ RunTime:0.045639s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-2' LIMIT 1   [ RunTime:0.047595s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-800' ORDER BY collectTime desc  [ RunTime:0.047210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-800' LIMIT 1   [ RunTime:0.042567s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-800' LIMIT 1   [ RunTime:0.037474s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-7' ORDER BY collectTime desc  [ RunTime:0.045149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-7' LIMIT 1   [ RunTime:0.044556s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-7' LIMIT 1   [ RunTime:0.044689s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-2' ORDER BY collectTime desc  [ RunTime:0.055332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-2' LIMIT 1   [ RunTime:0.045033s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-2' LIMIT 1   [ RunTime:0.042622s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-1200' ORDER BY collectTime desc  [ RunTime:0.050491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-1200' LIMIT 1   [ RunTime:0.043251s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-20-1200' LIMIT 1   [ RunTime:0.045085s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Co-60-0-1200' ORDER BY collectTime desc  [ RunTime:0.058429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Co-60-0-1200' LIMIT 1   [ RunTime:0.050042s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Co-60-0-1200' LIMIT 1   [ RunTime:0.046716s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-800' ORDER BY collectTime desc  [ RunTime:0.058281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-800' LIMIT 1   [ RunTime:0.044007s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-800' LIMIT 1   [ RunTime:0.043417s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-NO-EN-0-3300' ORDER BY collectTime desc  [ RunTime:0.056407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-NO-EN-0-3300' LIMIT 1   [ RunTime:0.039104s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-NO-EN-0-3300' LIMIT 1   [ RunTime:0.044595s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-NO-Pb-1200' ORDER BY collectTime desc  [ RunTime:0.049590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-NO-Pb-1200' LIMIT 1   [ RunTime:0.039823s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-NO-Pb-1200' LIMIT 1   [ RunTime:0.034958s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-4' ORDER BY collectTime desc  [ RunTime:0.051849s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-4' LIMIT 1   [ RunTime:0.044062s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-4' LIMIT 1   [ RunTime:0.044225s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-0-1200' ORDER BY collectTime desc  [ RunTime:0.051288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-0-1200' LIMIT 1   [ RunTime:0.038402s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-0-1200' LIMIT 1   [ RunTime:0.039531s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Co-60-120' ORDER BY collectTime desc  [ RunTime:0.055173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Co-60-120' LIMIT 1   [ RunTime:0.042853s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Co-60-120' LIMIT 1   [ RunTime:0.043016s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-1200' ORDER BY collectTime desc  [ RunTime:0.039993s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-1200' LIMIT 1   [ RunTime:0.041874s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-0-1200' LIMIT 1   [ RunTime:0.033975s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-1' ORDER BY collectTime desc  [ RunTime:0.048066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-1' LIMIT 1   [ RunTime:0.048599s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'Eu-152-Cs-137-0-1200-1' LIMIT 1   [ RunTime:0.043017s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS137-NO-EN-0-3300' ORDER BY collectTime desc  [ RunTime:0.042538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS137-NO-EN-0-3300' LIMIT 1   [ RunTime:0.035963s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS137-NO-EN-0-3300' LIMIT 1   [ RunTime:0.045068s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'CS-137-10-1200' ORDER BY collectTime desc  [ RunTime:0.074400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'CS-137-10-1200' LIMIT 1   [ RunTime:0.046335s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'CS-137-10-1200' LIMIT 1   [ RunTime:0.045089s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-137-5-50-2400' ORDER BY collectTime desc  [ RunTime:0.057045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-137-5-50-2400' LIMIT 1   [ RunTime:0.045425s ]
+SQL: SELECT MAX(powerR) AS tp_max FROM `think_gammapic` WHERE `legendName` = 'AM-PU-CS-137-5-50-2400' LIMIT 1   [ RunTime:0.054179s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.011961s ]
+NOTIC: [8] Undefined variable: map G:\wamp\www\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 374 行.
+SQL: SELECT `legendName` FROM `think_gammaphoto`  [ RunTime:0.000417s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000464s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000369s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `think_dmsr` [ RunTime:0.011868s ]
+NOTIC: [8] Undefined variable: map G:\wamp\www\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 415 行.
+SQL: SELECT `legendName` FROM `think_dmsr`  [ RunTime:0.000429s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000576s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000695s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.001370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.002071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2015-11-29T00:03:23+08:00 ] ::1 /HFS/index.php/Home/dataquery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:03:26+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.005993s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 200   [ RunTime:0.043207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-11-29T00:04:14+08:00 ] ::1 /HFS/index.php/Home/dataquery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:04:16+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.006983s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 8000   [ RunTime:0.094482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2015-11-29T00:05:33+08:00 ] ::1 /HFS/index.php/Home/dataquery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001986s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:05:36+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.007006s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 8000   [ RunTime:0.104849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2015-11-29T00:09:39+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.006710s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 8000   [ RunTime:0.126194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2015-11-29T00:10:28+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:10:33+08:00 ] ::1 /HFS/index.php/Home/Dataquery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:10:36+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.006769s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 6000   [ RunTime:0.084302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-11-29T00:10:52+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.007247s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 1000   [ RunTime:0.010219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2015-11-29T00:11:49+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.006978s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 159 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammapic` ORDER BY collectTime desc LIMIT 1000   [ RunTime:0.009551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2015-11-29T00:12:09+08:00 ] ::1 /HFS/index.php/Home/Dataquery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:15:31+08:00 ] ::1 /HFS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:15:35+08:00 ] ::1 /HFS/index.php/Home/Dataquery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+
+[ 2015-11-29T00:15:36+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `think_doserate` [ RunTime:0.009313s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 135 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_doserate` ORDER BY collectTime desc  [ RunTime:0.019413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-11-29T00:15:40+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.014791s ]
+NOTIC: [8] Undefined variable: condition G:\wamp\www\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 183 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammaphoto` ORDER BY collectTime desc  [ RunTime:0.009710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-11-29T00:15:44+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' G:\wamp\www\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `think_dmsr` [ RunTime:0.005583s ]
+SQL: SELECT `id`,legendName as name,collectTime as date,`longitude`,`latitude` FROM `think_dmsr` WHERE ( `longitude` > 0 AND `longitude` < 180  ) AND ( `latitude` > 0 AND `latitude` < 90  ) ORDER BY collectTime desc  [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+

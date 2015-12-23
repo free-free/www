@@ -1,0 +1,34 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" href="__CSS__/Upload/newsUpload.css"></block>
+<block name="content">
+	<div id="content">
+	<h1>新闻上传表单</h1>
+	   <form id="frm" action="__URL__/newsUpload" method="post" enctype="multipart/form-data">
+	      
+	        <ul class="ulist1">
+	        <li class="filelist">选择新闻文件</li>
+	        <li class="filechos">
+	            <div class="file-box">
+                     <input type='text' name='textfield' id='textfield1' class='txt' /> 
+                     <input type='button' class='btn' value='浏览...' /> 
+                     <input type="file" name="news" class="file" id="fileField" size="28" onchange="document.getElementById('textfield1').value=this.value" />  
+                </div>
+	        </li>
+	        </ul>
+	        <ul class="ulist2">
+	        <li class="titlelist">新文题目</li>
+	        <li ><input type="text" class="titletxt" name="title" value="" /></li>
+	        </ul>
+	        <ul class="ulist3">
+	        <li class="authorlist">新闻作者</li>
+	        <li ><input type="text" class="authortxt" name="author" value="" /></li>
+	        </ul>
+	        <ul class="ulist4">
+	        <li class="desclist">新闻简介</li>
+	        <li ><textarea class="desctxt" name="descs"></textarea></li>
+	        </ul>
+	        <li ><input type="submit" class="submit" name="sub" value="上传" /></li>
+	      
+	   </form>
+	</div>
+</block>

@@ -1,0 +1,12 @@
+.managelist{
+	height: 120px;
+}
+table{
+	width:500px;
+	min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table td{
+	border: 1px solid;
+}

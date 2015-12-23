@@ -1,0 +1,59 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" href="__CSS__/Upload/noticeUpload.css"></block>
+<block name="stylescreen">
+	<style type="text/css" media="screen">
+		.uplist{
+			height:30px;
+		}
+		.infolist{
+			height:100px;
+		}
+	</style>
+</block>
+<block name="content">
+	<div id="content">
+	<h1>通知公告上传表单</h1>
+	   <form id="frm" action="__URL__/noticeMod?id=<{$id}>" method="post" enctype="multipart/form-data">
+	         <ul class="ulist1">
+	         <label><li class="titlelist">通知题目</li>
+	         <li ><input type="text" class="titletxt" name="title" size="28" value="<{$noticeData.title}>"/></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist2">
+	         <label><li class="authorlist">通知发布者</li>
+	         <li ><input type="text" class="authortxt" name="author" size="28" value="<{$noticeData.author}>"/></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist3">
+	         <label><li class="contentlist">通知内容</li>
+	         <li ><textarea class="contenttxt" name="content"><{$noticeData.content}></textarea></li>
+	         </label>
+	         </ul>
+
+	         <ul class="ulist4">
+	         <li class="imporatnt" style="margin-top:30px">重要程度</li>
+	         <li class="radiolist" style="margin-top:30px">
+	         <switch name="noticeData.important">
+	         <case value="1">
+	         <label><span>一级</span><input type="radio" name="important" value="1" checked/></label>
+	         <label><sapn>二级</sapn><input type="radio" name="important" value="2"/></label>
+	         <label><sapn>三级</sapn><input type="radio" name="important" value="3"/></label>
+	         </case>
+	         <case value="2">
+	         <label><span>一级</span><input type="radio" name="important" value="1" /></label>
+	         <label><sapn>二级</sapn><input type="radio" name="important" value="2" checked="" /></label>
+	         <label><sapn>三级</sapn><input type="radio" name="important" value="3"/></label>
+	         </case>
+	         <case value="3">
+	          <label><span>一级</span><input type="radio" name="important" value="1" checked/></label>
+	         <label><sapn>二级</sapn><input type="radio" name="important" value="2"/></label>
+	         <label><sapn>三级</sapn><input type="radio" name="important" value="3" checked /></label>
+	         </case>
+	         <default />
+	         </switch>
+	         </li>
+	         </ul>
+	         <li ><input type="submit" class="submit" name="sub" value="修改"></li>
+	   </form>
+	</div>
+</block>

@@ -1,0 +1,32 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" href="__CSS__/Info/noticeInfo.css"></block>
+<block name="content">
+	<div id="content">
+	<h1>通知公告文件表单</h1>
+	   <table>
+	        <tr>
+	            <td>通知题目</td>
+	            <td>通知发布者</td>
+	            <td>通知重要度</td>
+	            <td>发布时间</td>
+	            <td>操作</td>
+	        </tr>
+	      <volist name="noticeData" id="lo">
+	        <tr>
+	            <td><{$lo.title}></td>
+	            <td><{$lo.author}></td>
+	            <td>
+	              <switch name="lo.important">
+	                <case value="1" break="1">不重要</case>
+	                <case value="2" break="1">比较重要</case>
+	                <case value="3" break="1">非常重要</case>
+	                <default />未知
+	              </switch>
+	            </td>
+	            <td><{$lo.pTime|date="Y-m-d H:i:s",###}></td>
+	            <td><a href="javascript:if(confirm('确实要删除该内容吗?'))location='__MODULE__/Action/noticeDel?id=<{$lo.id}>'">删除</a>/<a href="__MODULE__/Action/noticeMod?id=<{$lo.id}>">修改</a></td>
+	        </tr>
+	      </volist>
+	   </table>
+	</div>
+</block>

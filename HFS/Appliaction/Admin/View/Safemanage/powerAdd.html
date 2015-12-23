@@ -1,0 +1,64 @@
+<extend name="default/base"/>
+<block name="style"><link rel="stylesheet" type="text/css" href="__CSS__/Safemanage/powerAdd.css"></block>
+<block name="javas"><script src="__JS__/Safemanage/poweradd.js" type="text/javascript"></script></block>
+<block name="content">
+    <div id="content">
+        <h1>权限添加</h1>
+        <form id="frm" method="post" action="__URL__/powerAdd">
+             <ul class="poweradd1">
+                 <li class="list"><font color="red">*</font>登录用户</li>
+                 <li><input class="userlist" type="text" name="userName" value="">
+                 <span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd2">
+                 <li class="list"><font color="red">*</font>登录密码</li>
+                 <li><input class="passlist" type="password" name="password" value=""><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd3">
+                 <li class="list"><font color="red">*</font>权限级别</li>
+                 <li><select class="powerlist" name="userPower">
+                 	   <option value="0" selected="selected">一级(所有权限)</option>
+                 	   <option value="1">二级(信息发布权)</option>
+                 	   <option value="2">三级(数据采集权)</option>
+                 </select><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd4">
+                 <li class="list"><font color="red">*</font>真实姓名</li>
+                 <li><input class="namelist" type="text" name="truename" value=""><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd5">
+                 <li class="list"><font color="red">*</font>学号</li>
+                 <li><input class="idlist" type="text" name="studentID" value=""><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd6">
+                 <li class="list">学院</li>
+                 <li><select class="collegelist" name="college">
+                 	 <option value="0" selected="selected">信息工程学院</option>
+                 	 <option value="1">计算机科学与技术学院</option>
+                 	 <option value="2">国防科技学院</option>
+                 	 <option value="3">制造科学与工程学院</option>
+                 	 <option value="4">土木工程与建筑学院</option>
+                 	 <option value="5">材料科学与工程学院</option>
+                 	 <option value="6">环境与资源学院</option>
+                 	 <option value="7">生命科学与工程学院</option>
+                 	 <option value="8">理学院</option>
+                 	 <option value="9">经济管理学院</option>
+                 	 <option value="10">外国语学院</option>
+                 	 <option value="11">法学院</option>
+                 	 <option value="12">文学与艺术学院</option>
+                 	 <option value="13">马克思主义学院</option>
+                 	 <option value="14">体育学科部</option>
+                 </select></li>
+             </ul>
+             <ul class="poweradd7">
+                 <li class="list">专业</li>
+                 <li><input class="majorlist" type="text" name="major" value=""></li>
+             </ul>
+             <ul class="poweradd8">
+                 <li class="list">邮箱</li>
+                 <li><input class="emaillist" type="text" name="email" value=""></li>
+             </ul>
+             <li><input class="submit" type="submit" name="sub" value="添加"></li>
+        </form>
+    </div>
+</block>

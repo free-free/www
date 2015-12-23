@@ -1,0 +1,132 @@
+
+body{
+	background: #f1f4f5;
+}
+.main .container{
+	width: 1200px;
+	margin: 40px auto;
+	min-height: 450px;
+}
+
+
+/* left box */
+.l-side-box{
+	width: 260px;
+	float: left;
+	background: #efefef;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	overflow: hidden;
+}
+.related-box h3{
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	background: #3399cc;
+	width: 100%;
+    color: #fff;
+}
+.related-box .item{
+	display: block;
+	width: 100%;
+	line-height: 35px;
+	font-size: 14px;
+	border-bottom: 1px dashed #3399cc;
+	text-align: left;
+	color: #666;
+}
+.related-box .item span{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+.related-box .item:hover{
+	text-decoration: underline;
+	color: #0099ff;
+}
+
+/* right box */
+.r-side-box{
+	width: 900px;
+	float: right;
+	background: #efefef;
+	border-radius: 10px;
+}
+.circular-title{
+	font-size: 24px;
+	line-height: 40px;
+	height: 40px;
+	color: #3399cc;
+	text-align: center;
+	margin-top: 20px;
+	letter-spacing: 5px;
+
+}
+.circular-content{
+	width: 860px;
+	padding:20px;
+	font-size: 20px;
+	text-align: left;
+}
+.circular-content .circular-main{
+	width: 860px;
+	font-size: 20px;
+	word-wrap:break-word; 
+    word-break:break-all;
+	text-indent: 2em;
+}
+.circular-content .timelist{
+	width:240px;
+	height:30px;
+	line-height: 30px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: right;
+}
+.paragh{
+	font-size: 12px;
+	color: #666;
+	text-indent: 20px;
+	line-height: 20px;
+	letter-spacing: 3px;
+}
+/* footer */
+.footer{
+	height: 100px;
+	position: relative;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.footer .container{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 45%;
+}
+.footer .contact{
+   	padding-left: 15%;
+}
+.footer .contact a{
+	color: #006699;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.footer .contact a:hover{
+	text-decoration: underline;
+}
+.footer .statement{
+	 color: #333;
+	 font-size: 13px;
+}
+.footer .statement span a{
+	color: #006699;
+	text-decoration: none;
+}
+.footer .statement span a:hover{
+	text-decoration: underline;
+}

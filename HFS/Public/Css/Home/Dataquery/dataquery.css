@@ -1,0 +1,224 @@
+body{
+	background: #f1f4f5;
+}
+.clearfix{
+	clear: both;
+}
+/* main css style */
+.main .container{
+	width: 1000px;
+	margin: 0 auto; 
+	
+
+}
+/* search related element style */
+.search{
+	margin: 20px 0;
+	overflow: hidden;
+	position: relative;
+    border: 1px solid #3399cc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.search-title{
+	font-size: 18px;
+	font-family: 'arial' 'Microsoft Yahei' 'Simhei' sans-serif;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: #3399cc;
+}
+.search-box{
+	padding: 20px 20px;
+	overflow: hidden;
+	
+}
+.search-item{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #333;
+}
+.search-item label{
+	display: inline-block;
+	width: 40px;
+	line-height: 20px;
+
+}
+.search-item span{
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	height: 20px;
+	width: 30px;
+}
+.search-item input{
+	display: inline-block;
+	height: 20px;
+     color: #666;
+	line-height: 20px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.search-btn{
+	margin-top: 40px;
+	margin-left: 200px;
+	width: 86px;
+}
+.btn{
+
+	display: inline-block;
+	padding:0 20px;
+	font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+	letter-spacing: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #00a5f2;
+    background:-moz-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(60%,#fefefe),color-stop(81%,#f2f2f2),color-stop(100%,#e1e1e1));
+    background:-webkit-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:-o-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:-ms-linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%);
+    background:linear-gradient(top,#0095d2 0,#00a5f2 50%,#0095d2 100%); 
+    color: #fff;
+    border: 1px solid #0095d2;
+}
+.btn:hover{
+	box-shadow: 0 0 5px #00a5f2;
+	-o-box-shadow: 0 0 5px #00a5f2;
+	-webkit-box-shadow: 0 0 5px #00a5f2;
+	-ms-box-shadow: 0 0 5px #00a5f2;
+	-moz-box-shadow: 0 0 5px #00a5f2;
+}
+
+.search-tips{
+	position: absolute;
+	top: 15%;
+	left: 65%;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+/* query result element style */
+.data-box{
+	width: 100%;
+	box-shadow: 0 0 5px #666;
+
+}
+.desc-title{
+	font-size: 18px;
+	font-family: 'arial' 'Microsoft Yahei' 'Simhei' sans-serif;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: #3399cc;
+}
+.desc-box{
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0;
+}
+.desc-item{
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 20%;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	font-family: 'arial' 'Microsoft Yahei' 'SimHei' sans-serif;
+}
+.datalist-item{
+	height: 30px;
+
+	/* background: #ccc; */
+}
+.datalist-item:hover{
+	box-shadow: 0 0 5px #666;
+}
+.data-info{
+	display: block;
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-family: 'arial' 'Microsoft Yahei' 'SimHei' sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    color: #333;
+}
+.data-info a{
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+	font-family: 'arial' 'Microsoft Yahei' 'SimHei' sans-serif;
+}
+.data-info a:hover{
+	color: #006699;
+}
+.data-operate a{
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 8px;
+	margin: 0 10px;
+
+}
+.data-operate a img{
+	margin-top: 3px;
+	display: block;
+	width: 24px;
+	height: 24px;
+	border: none;
+}
+.data-operate a:hover img{
+	margin: 1px;
+	width: 28px;
+	height: 28px;
+} 
+/* footer */
+.footer{
+	height: 100px;
+	position: relative;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.footer .container{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 45%;
+}
+.footer .contact{
+   	padding-left: 15%;
+}
+.footer .contact a{
+	color: #006699;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.footer .contact a:hover{
+	text-decoration: underline;
+}
+.footer .statement{
+	 color: #333;
+	 font-size: 13px;
+}
+.footer .statement span a{
+	color: #006699;
+	text-decoration: none;
+}
+.footer .statement span a:hover{
+	text-decoration: underline;
+}

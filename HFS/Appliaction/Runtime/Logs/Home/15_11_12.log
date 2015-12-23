@@ -1,0 +1,320 @@
+[ 2015-11-12T22:41:27+08:00 ] ::1 /HFS/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018238s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.014272s ]
+SQL: SHOW COLUMNS FROM `think_report` [ RunTime:0.012444s ]
+SQL: SHOW COLUMNS FROM `think_notice` [ RunTime:0.011337s ]
+SQL: SELECT * FROM `think_news` ORDER BY pTime desc LIMIT 6   [ RunTime:0.000409s ]
+SQL: SELECT * FROM `think_report` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `think_notice` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2015-11-12T22:41:29+08:00 ] ::1 /HFS/index.php/Home/Datapick
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `think_portconfig` [ RunTime:0.011317s ]
+SQL: SHOW COLUMNS FROM `think_interconfig` [ RunTime:0.011050s ]
+SQL: SELECT * FROM `think_portconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `think_interconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-11-12T22:41:35+08:00 ] ::1 /HFS/index.php/Home/Datapick/portConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `think_portconfig` [ RunTime:0.005695s ]
+SQL: SELECT `id` FROM `think_portconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.000255s ]
+SQL: UPDATE `think_portconfig` SET `speed`=8600,`port`=4,`checkbit`='0000 1111 0000 1111',`databit`='1010 1100 1111 0011',`stopbit`='0101 0011 0000 1100' WHERE `id` = 29 [ RunTime:0.000473s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DatapickController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2015-11-12T22:41:40+08:00 ] ::1 /HFS/index.php/Home/Dataquery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-11-12T22:41:44+08:00 ] ::1 /HFS/index.php/Home/Dataquery/dataQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.071456s ]
+NOTIC: [8] Undefined variable: condition C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataqueryController.class.php 第 183 行.
+SQL: SELECT `id`,legendName as name,collectTime as date FROM `think_gammaphoto` ORDER BY collectTime desc  [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-11-12T22:41:47+08:00 ] ::1 /HFS/index.php/Home/Dataquery/down?type=3&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.006721s ]
+SQL: SELECT * FROM `think_gammaphoto` WHERE `id` = 5 LIMIT 1   [ RunTime:0.040731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2015-11-12T22:41:47+08:00 ] ::1 /HFS/index.php/Home/Dataquery/down?type=3&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.004689s ]
+SQL: SELECT * FROM `think_gammaphoto` WHERE `id` = 5 LIMIT 1   [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2015-11-12T22:42:04+08:00 ] ::1 /HFS/index.php/Home/dataprocess.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-11-12T22:42:05+08:00 ] ::1 /HFS/index.php/Home/Dataprocess/dataPro?0.4452480621729716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `think_doserate` [ RunTime:0.014131s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate`  [ RunTime:0.000285s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000273s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM003' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM003' LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.009893s ]
+NOTIC: [8] Undefined variable: map C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 323 行.
+SQL: SELECT `legendName` FROM `think_gammapic`  [ RunTime:0.000330s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'GM003' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'GM003' LIMIT 1   [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.004614s ]
+NOTIC: [8] Undefined variable: map C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 360 行.
+SQL: SELECT `legendName` FROM `think_gammaphoto`  [ RunTime:0.000262s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `think_dmsr` [ RunTime:0.012604s ]
+NOTIC: [8] Undefined variable: map C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 401 行.
+SQL: SELECT `legendName` FROM `think_dmsr`  [ RunTime:0.000261s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2015-11-12T22:42:12+08:00 ] ::1 /HFS/index.php/Home/Dataprocess/dataPro?0.7148999840327319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `think_doserate` [ RunTime:0.006702s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate`  [ RunTime:0.000319s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT `legendName`,`doseRate` FROM `think_doserate` WHERE `legendName` = 'GM003' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_doserate` WHERE `legendName` = 'GM003' LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `think_gammapic` [ RunTime:0.004817s ]
+NOTIC: [8] Undefined variable: map C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 323 行.
+SQL: SELECT `legendName` FROM `think_gammapic`  [ RunTime:0.000228s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT `legendName`,`powerR` FROM `think_gammapic` WHERE `legendName` = 'GM003' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammapic` WHERE `legendName` = 'GM003' LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `think_gammaphoto` [ RunTime:0.004530s ]
+NOTIC: [8] Undefined variable: map C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 360 行.
+SQL: SELECT `legendName` FROM `think_gammaphoto`  [ RunTime:0.000216s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT `legendName`,`x`,`y`,`doseRate` FROM `think_gammaphoto` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_gammaphoto` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `think_dmsr` [ RunTime:0.005099s ]
+NOTIC: [8] Undefined variable: map C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Controller\DataprocessController.class.php 第 401 行.
+SQL: SELECT `legendName` FROM `think_dmsr`  [ RunTime:0.000241s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM001' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM001' LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT `legendName`,`longitude`,`latitude`,`doseRate` FROM `think_dmsr` WHERE `legendName` = 'GM002' ORDER BY collectTime desc LIMIT 10   [ RunTime:0.000199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_dmsr` WHERE `legendName` = 'GM002' LIMIT 1   [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-11-12T22:47:41+08:00 ] ::1 /HFS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.056326s ]
+SQL: SHOW COLUMNS FROM `think_report` [ RunTime:0.005644s ]
+SQL: SHOW COLUMNS FROM `think_notice` [ RunTime:0.005095s ]
+SQL: SELECT * FROM `think_news` ORDER BY pTime desc LIMIT 6   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `think_report` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `think_notice` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-11-12T23:33:01+08:00 ] ::1 /HFS/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.006698s ]
+SQL: SHOW COLUMNS FROM `think_report` [ RunTime:0.005353s ]
+SQL: SHOW COLUMNS FROM `think_notice` [ RunTime:0.005415s ]
+SQL: SELECT * FROM `think_news` ORDER BY pTime desc LIMIT 6   [ RunTime:0.000342s ]
+SQL: SELECT * FROM `think_report` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `think_notice` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2015-11-12T23:35:57+08:00 ] ::1 /HFS/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant TMPL_DENY_PHP - assumed 'TMPL_DENY_PHP' C:\lamp\Apache24\htdocs\HFS\Appliaction\Home\Conf\config.php 第 32 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.006388s ]
+SQL: SHOW COLUMNS FROM `think_report` [ RunTime:0.004926s ]
+SQL: SHOW COLUMNS FROM `think_notice` [ RunTime:0.005325s ]
+SQL: SELECT * FROM `think_news` ORDER BY pTime desc LIMIT 6   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `think_report` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `think_notice` ORDER BY pTime desc  LIMIT 6   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+

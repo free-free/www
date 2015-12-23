@@ -1,0 +1,45 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" type="text/css" href="__CSS__/Safemanage/powerMod.css"></block>
+<block name="javas"><script src="__JS__/Safemanage/powermod.js" type="text/javascript"></script></block>
+<block name="content">
+    <div id="content">
+        <h1>权限添加</h1>
+        <form id="frm" method="post" action="__URL__/powerMod?id=<{$data.id}>">
+             <ul class="poweradd1">
+                 <li class="list"><font color="red">*</font>登录用户</li>
+                 <li><input class="userlist" type="text" name="userName" value="<{$data.userName}>">
+                 <span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd2">
+                 <li class="list"><font color="red">*</font>登录密码</li>
+                 <li><input class="passlist" type="password" name="password" value=""><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd3">
+                 <li class="list"><font color="red">*</font>权限级别</li>
+                 <li><html:select  id="" name="userPower" options="userPower" selected='powerValue'  class='powerlist' /><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd4">
+                 <li class="list"><font color="red">*</font>真实姓名</li>
+                 <li><input class="namelist" type="text" name="truename" value="<{$data.truename}>"><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd5">
+                 <li class="list"><font color="red">*</font>学号</li>
+                 <li><input class="idlist" type="text" name="studentID" value="<{$data.studentID}>"><span style="color:red"></span></li>
+             </ul>
+             <ul class="poweradd6">
+                 <li class="list">学院</li>
+                 <li><html:select  id="" name="college" options="college" selected='collegeValue' first="请选择学院" class='collegelist' /></li>
+             </ul>
+             <ul class="poweradd7">
+                 <li class="list">专业</li>
+                 <li><input class="majorlist" type="text" name="major" value="<{$data.major}>"></li>
+             </ul>
+             <ul class="poweradd8">
+                 <li class="list">邮箱</li>
+                 <li><input class="emaillist" type="text" name="email" value="<{$data.email}>"></li>
+             </ul>
+             <li><input class="submit" type="submit" name="sub" value="修改"><input class="reset" type="reset" name="reset" value="重置"></li>
+             
+        </form>
+    </div>
+</block>

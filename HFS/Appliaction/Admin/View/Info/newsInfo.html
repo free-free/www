@@ -1,0 +1,25 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" href="__CSS__/Info/newsInfo.css"></block>
+<block name="content">
+	<div id="content">
+	<h1>新闻文件表单</h1>
+	   <table>
+	        <tr>
+	            <td>文件名称</td>
+	            <td>新闻题目</td>
+	            <td>新闻作者</td>
+	            <td>发布时间</td>
+	            <td>操作</td>
+	        </tr>
+	      <volist name="newsData" id="lo">
+	        <tr>
+	            <td><{$lo.name}></td>
+	            <td><{$lo.title}></td>
+	            <td><{$lo.author}></td>
+	            <td><{$lo.pTime|date="Y-m-d H:i:s",###}></td>
+	            <td><a href="javascript:if(confirm('确实要删除该内容吗?'))location='__MODULE__/Action/newsDel?id=<{$lo.id}>'">删除</a>/<a href="__MODULE__/Action/newsMod?id=<{$lo.id}>">修改</a></td>
+	        </tr>
+	      </volist>
+	   </table>
+	</div>
+</block>

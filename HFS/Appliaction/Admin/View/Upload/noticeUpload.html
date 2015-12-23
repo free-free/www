@@ -1,0 +1,34 @@
+<extend name="default/base" />
+<block name="style"><link rel="stylesheet" href="__CSS__/Upload/noticeUpload.css"></block>
+<block name="content">
+	<div id="content">
+	<h1>通知公告上传表单</h1>
+	   <form id="frm" action="__URL__/noticeUpload" method="post" enctype="multipart/form-data">
+	         <ul class="ulist1">
+	         <label><li class="titlelist">通知题目</li>
+	         <li ><input type="text" class="titletxt" name="title" size="28"/></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist2">
+	         <label><li class="authorlist">通知发布者</li>
+	         <li ><input type="text" class="authortxt" name="author" size="28"/></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist3">
+	         <label><li class="contentlist">通知内容</li>
+	         <li ><textarea class="contenttxt" name="content"></textarea></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist4">
+	         <li class="imporatnt" style="margin-top:30px">重要程度</li>
+	         <li class="radiolist" style="margin-top:30px">
+	         <label><span>一级</span><input type="radio" name="important" value="1"/></label>
+	         <label><sapn>二级</sapn><input type="radio" name="important" value="2"/></label>
+	         <label><sapn>三级</sapn><input type="radio" name="important" value="3"/></label>
+	         </li>
+	         </ul>
+	         <li ><input type="submit" class="submit" name="sub" value="发布"></li>
+	     
+	   </form>
+	</div>
+</block>

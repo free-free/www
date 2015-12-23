@@ -1,0 +1,46 @@
+<extend name="default/base" />
+<block name="style">
+<link rel="stylesheet" href="__CSS__/Upload/newsUpload.css">
+</block>
+<block name="stylescreen">
+	<style type="text/css" media="screen">
+		.uplist{
+			height:30px;
+		}
+		.infolist{
+			height:100px;
+		}
+	</style>
+</block>
+<block name="content">
+	<div id="content">
+	<h1>新闻上传表单</h1>
+	   <form id="frm" action="__URL__/newsMod?id=<{$id}>" method="post" enctype="multipart/form-data">
+	      
+	        <ul class="ulist1">
+	        <li class="filelist">选择新闻文件</li>
+	        <li class="filechos">
+	            <div class="file-box">
+                     <input type='text' name='textfield' id='textfield1' class='txt' value="<{$newsData.name}>" disabled/> 
+                     <input type='button' class='btn' value='浏览...' disabled/> 
+                     <input type="file" name="news" class="file" id="fileField" size="28" onchange="document.getElementById('textfield1').value=this.value"disabled/>  
+                </div>
+	        </li>
+	        </ul>
+	        <ul class="ulist2">
+	        <li class="titlelist">新文题目</li>
+	        <li ><input type="text" class="titletxt" name="title" value="<{$newsData.title}>" /></li>
+	        </ul>
+	        <ul class="ulist3">
+	        <li class="authorlist">新闻作者</li>
+	        <li ><input type="text" class="authortxt" name="author" value="<{$newsData.author}>" /></li>
+	        </ul>
+	        <ul class="ulist4">
+	        <li class="desclist">新闻简介</li>
+	        <li ><textarea class="desctxt" name="descs"><{$newsData.descs}></textarea></li>
+	        </ul>
+	        <li ><input type="submit" class="submit" name="sub" value="修改" /></li>
+	      
+	   </form>
+	</div>
+</block>

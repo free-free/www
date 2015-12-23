@@ -233,3 +233,9 @@ Route::get('queue/sendmail','QueueController@sendRemindEmail');
 */
 Route::get('session/get','SessionController@session_get');
 Route::get('session/store','SessionController@session_store');
+/*
+	Validation Service
+*/
+Route::get('validate/post','ValidateController@create');
+Route::post('validate/post','ValidateController@store');
+Route::post('validate/form','ValidateController@formRequest');
