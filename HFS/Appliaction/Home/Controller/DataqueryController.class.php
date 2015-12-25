@@ -36,7 +36,8 @@ class DataqueryController extends Controller {
             }
         }
     }
-     public function downAction(){
+
+    public function downAction(){
         if(I("get.type")==1){
             $doserate=M("doserate");
             $condition['id']=I("get.id");
@@ -131,8 +132,8 @@ class DataqueryController extends Controller {
         $condition["collectTime"]=array(array("gt",$ldate),array("lt",$udate));
         }
         $doseData=$doserate->order("collectTime desc")
-                       ->field("id,legendName as name,collectTime as date")
-                       ->where($condition)->select();
+                           ->field("id,legendName as name,collectTime as date")
+                           ->where($condition)->select();
         foreach ($doseData as $key => $value) {
             $value["date"]=date("Y-m-d",$value["date"]);
             $array[$key]['listcon']=$value;

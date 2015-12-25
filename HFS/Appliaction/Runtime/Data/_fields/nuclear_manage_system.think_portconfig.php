@@ -1,1 +1,0 @@
-a:8:{i:0;s:2:"id";i:1;s:4:"port";i:2;s:5:"speed";i:3;s:8:"checkbit";i:4;s:7:"databit";i:5;s:7:"stopbit";s:3:"_pk";s:2:"id";s:5:"_type";a:6:{s:2:"id";s:7:"int(11)";s:4:"port";s:7:"int(11)";s:5:"speed";s:7:"int(11)";s:8:"checkbit";s:8:"char(32)";s:7:"databit";s:8:"char(32)";s:7:"stopbit";s:8:"char(32)";}}

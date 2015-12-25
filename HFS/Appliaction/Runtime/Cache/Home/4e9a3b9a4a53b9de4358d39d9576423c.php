@@ -3,8 +3,8 @@
 <head>
 <title>data picking</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/HFS/Public/Css/Home/Index/header.css">
-<link rel="stylesheet" type="text/css" href="/HFS/Public/Css/Home/Datapick/datapick.css">
+<link rel="stylesheet" href="/Public/Css/Home/Index/header.css">
+<link rel="stylesheet" type="text/css" href="/Public/Css/Home/Datapick/datapick.css">
 </head>
 <body>
 	<div class="header">
@@ -14,11 +14,11 @@
 			</div>
 			<div class="nav">
 				<ul class="nav-items">
-					<li class="nav-item"><a href="/HFS/index.php/Home/Index">首   页</a></li>
-					<li class="nav-item"><a href="/HFS/index.php/Home/Datapick">数据采集</a></li>
-					<li class="nav-item"><a href="/HFS/index.php/Home/Dataquery">数据查询</a></li>
-					<li class="nav-item"><a href="/HFS/index.php/Home/Dataprocess">数据处理</a></li>
-					<li class="nav-item"><a href="/HFS/index.php/Home/Aboutus">关于我们</a></li>
+					<li class="nav-item"><a href="/index.php/Home/Index">首   页</a></li>
+					<li class="nav-item"><a href="/index.php/Home/Datapick">数据采集</a></li>
+					<li class="nav-item"><a href="/index.php/Home/Dataquery">数据查询</a></li>
+					<li class="nav-item"><a href="/index.php/Home/Dataprocess">数据处理</a></li>
+					<li class="nav-item"><a href="/index.php/Home/Aboutus">关于我们</a></li>
 				</ul>
 			</div>
 
@@ -35,7 +35,7 @@
 						<option value="2">网络接口</option>
 					</select>
 					<div class="param-load-btns">
-						<a class="file-select" href="javascript:void(0);"><input type="file" name="file" id="file" class="up-file"><span><img src="/HFS/Public/Images/file_upload.png" alt="选择文件"></span></a>
+						<a class="file-select" href="javascript:void(0);"><input type="file" name="file" id="file" class="up-file"><span><img src="/Public/Images/file_upload.png" alt="选择文件"></span></a>
 						<a class="btn  param-upload-btn" href="javascript:;">参数导入</a>
 						<a class="btn  param-download-btn" href="">参数导出</a>
 						<div class="clearfix"></div>
@@ -84,12 +84,12 @@
 	</div>
 	<div class="footer">
 		<div class="container">
-			<p class="contact"><a href=""> 联系我们:19941222hb@gmail.com</a>|<a href="/HFS/index.php/Home/Index/logoShow">管理员登录</a></p>
+			<p class="contact"><a href=""> 联系我们:19941222hb@gmail.com</a>|<a href="/index.php/Home/Index/logoShow">管理员登录</a></p>
 			<p class="statement">Copyright 2015,All Rights Reserved. <span><a href="">智能信号检测与核仪器组</a></span> 版权所有 复制必究</p>
 		</div>
 	</div>
 </body>
 <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript">window.jQuery||document.write('<script src="/HFS/Public/Js/Home/jquery-1.11.3.min.js"><\/script>');</script>
-<script type="text/javascript" src="/HFS/Public/Js/Home/Datapick/datapick.js"></script>
+<script type="text/javascript">window.jQuery||document.write('<script src="/Public/Js/Home/jquery-1.11.3.min.js"><\/script>');</script>
+<script type="text/javascript" src="/Public/Js/Home/Datapick/datapick.js"></script>
 </html>

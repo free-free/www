@@ -93,9 +93,53 @@
 				<div class="search-option-box">
 					<dl>
 						<dd><input type="checkbox" class="option" value="1"><span>剂量率</span></dd>
+						<dd style="display:none" id="check1" class="device-option">
+						
+							<span>设备号:</span>
+							<select class="device-list">
+								<volist name="device_list[1]" id="record">
+						  				<option value="<{$record.data}>" >
+						  					<{$record.device_name}>
+						  				</option>
+								</volist>
+							</select> 
+						</dd>
 						<dd><input type="checkbox" class="option" value="2"><span>伽马能谱</span></dd>
+						<dd style="display:none" id="check2"
+						class="device-option">
+							<span>设备号:</span>
+							<select class="device-list">
+								<volist name="device_list[2]" id="record">
+						  				<option value="<{$record.data}>" >
+						  					<{$record.device_name}>
+						  				</option>
+								</volist>
+							</select>
+						</dd>
 						<dd><input type="checkbox" class="option" value="3"><span>伽马相机数据</span></dd>
+						<dd style="display:none" id="check3"
+						class="device-option">
+							<span>设备号:</span>
+							<select class="device-list">
+								<volist name="device_list[3]" id="record">
+						  				<option value="<{$record.data}>" >
+						  					<{$record.device_name}>
+						  				</option>
+								</volist>
+							</select>
+						</dd>
 						<dd><input type="checkbox" class="option" value="4"><span>空间辐射监测数据</span></dd>
+						<dd style="display:none" id="check4"
+						class="device-option">
+							<span>设备号:</span>
+							<select class="device-list">
+								<volist name="device_list[4]" id="record">
+						  				<option value="<{$record.data}>" >
+						  					<{$record.device_name}>
+						  				</option>
+								</volist>
+							</select>
+						</dd>
 					</dl>
 				</div>
 				<div class="search-content-box">
@@ -104,8 +148,9 @@
 						<dd><input class="date l_date" type="text"></dd>
 						<dd><span>最大时间:</span></dd>
 						<dd><input class="date u_date"type="text"></dd>
-						<dd><span>设备号:</span></dd>
-						<dd><input class="device_name"type="text"></dd>
+						<!-- <dd><span>设备号:</span></dd>
+						<dd><input class="device_name"type="text"></dd> -->
+						
 					</dl>
 				</div>
 				<div class="search-btn-box"><a class="search-btn" href="javascript:void(0);">搜索</a></div>

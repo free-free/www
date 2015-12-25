@@ -9,7 +9,7 @@ return array(
 		'DB_HOST'               =>      'localhost',//设置主机
 		'DB_NAME'               =>      'nuclear_manage_system',//设置数据库名
 		'DB_USER'               =>      'root',    //设置用户名
-		'DB_PWD'                =>      '123456',        //设置密码
+		'DB_PWD'                =>      '526114',        //设置密码
 		// 'DB_HOST'               =>      'my0082097.xincache1.cn',
 		// 'DB_NAME'               =>      'my0082097',
 		// 'DB_USER'               =>      'my0082097',

@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Dataquery</title>
-	<link rel="stylesheet" href="/HFS/Public/Css/Home/Index/header.css">
-	<link rel="stylesheet" href="/HFS/Public/Plugins/datetimepicker/jquery.datetimepicker.css">
-	<link rel="stylesheet" href="/HFS/Public/Css/Home/Dataquery/dataquery.css">
+	<link rel="stylesheet" href="/Public/Css/Home/Index/header.css">
+	<link rel="stylesheet" href="/Public/Plugins/datetimepicker/jquery.datetimepicker.css">
+	<link rel="stylesheet" href="/Public/Css/Home/Dataquery/dataquery.css">
 	
 </head>
 <body>
@@ -128,14 +128,14 @@
 	</div>
 	<div class="footer">
 		<div class="container">
-			<p class="contact"><a href=""> 联系我们:19941222hb@gmail.com</a>|<a href="/HFS/index.php/Home/Index/logoShow">管理员登录</a></p>
+			<p class="contact"><a href=""> 联系我们:19941222hb@gmail.com</a>|<a href="/index.php/Home/Index/logoShow">管理员登录</a></p>
 			<p class="statement">Copyright 2015,All Rights Reserved. <span><a href="">智能信号检测与核仪器组</a></span> 版权所有 复制必究</p>
 		</div>
 	</div>
 </body>
 	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript">window.jQuery||document.write('<script src="/HFS/Public/Js/Home/jquery-1.11.3.min.js"><\/script>');</script>
-	<script type="text/javascript" src="/HFS/Public/Plugins/datetimepicker/jquery.datetimepicker.js"></script>
-    <script type="text/javascript" src="/HFS/Public/Js/Home/Dataquery/dataquery.js"></script>
+	<script type="text/javascript">window.jQuery||document.write('<script src="/Public/Js/Home/jquery-1.11.3.min.js"><\/script>');</script>
+	<script type="text/javascript" src="/Public/Plugins/datetimepicker/jquery.datetimepicker.js"></script>
+    <script type="text/javascript" src="/Public/Js/Home/Dataquery/dataquery.js"></script>
     
 </html>

@@ -1,16 +1,7 @@
 $(function(){
 	
-	/**
-	 *@desc:load datetimepicker plugins
-	 *@param:none
-	 *@return: none
-	 *
-	 */
-	$('.date').datetimepicker({
-		'lang':'ch',
-		'format':"Y-m-d H:i",
-		'readonly':true
-	});
+	$(window).scrollTop(0);
+   	$('input[type="checkbox"]').prop('checked',false);
 	/**
 	 *@desc:generate a graphic box div and append it to it's parent node
 	 *@param: id ,box's id
@@ -158,7 +149,7 @@ $(function(){
 	            series.push({
 	            		name:json.y[i].legendName,
 	            		type:'scatter',
-						markPoint : {data : [{type : 'max', name: '最大值'},{type : 'min', name: '最小值'}]},
+						
 						data:json.y[i].data
 	            	});
 
@@ -326,19 +317,23 @@ $(function(){
 	 */
 	$('a.search-btn').click(function(){
 		var optionE=$('input.option:checked');
+		var device=$('.device-option select.device-list');
 		var lDateE=$('input.l_date').val()||'';
 		var uDateE=$('input.u_date').val()||'';
 		var deviceNameE=$('input.device_name').val()||'';
 		var qType=[],dName=[],json={},q='';
 		for(var i=0;i<optionE.length;i++){
-			qType.push(optionE.eq(i).val());
+			d=[];
+			d.push(optionE.eq(i).val());
+			d.push(device.eq(parseInt(optionE.eq(i).val())-1).val());
+			qType.push(d);
 		}
 		json.type=qType;
 		json.lDate=lDateE;
 		json.uDate=uDateE;
-		json.dName=deviceNameE.split(',');
+		//json.dName=deviceNameE.split(',');
 		json=JSON.stringify(json);
-	/*	console.log(json);*/
+		console.log(json);
 		q='q='+json;
 		//queryData('/HFS/Public/Php/process.php',q);
 		queryData('Dataprocess/dataPro',q);
@@ -402,8 +397,33 @@ $(function(){
    		});	
    		heatmap.show();
     }
+    //$('a.search-btn').click();
+   
+   	$('input[type="checkbox"]').change(function(){
+   		input_id_arr=[
+   			'check1',
+   			'check2',
+   			'check3',
+   			'check4'
+   		];
+   		if($(this).prop("checked")==true){
+   				$("#"+input_id_arr[$(this).val()-1]).slideDown(50);
+   		}else{
+   				$("#"+input_id_arr[$(this).val()-1]).slideUp(50);
+   				$(this).prop("checked",false);
+   		}
+   	
+   	});
+   	/**
+	 *@desc:load datetimepicker plugins
+	 *@param:none
+	 *@return: none
+	 *
+	 */
 
-
-    $('a.search-btn').click();
-   	$(window).scrollTop(0);
+	$('.date').datetimepicker({
+		'lang':'ch',
+		'format':"Y-m-d H:i",
+		'readonly':true
+	});
 });
