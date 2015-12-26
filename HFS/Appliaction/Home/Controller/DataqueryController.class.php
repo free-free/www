@@ -6,32 +6,19 @@ class DataqueryController extends Controller {
         $this->display("dataquery::index");
     }
     public function dataQueryAction(){
+        $type_arr=[1=>'doserate',2=>'gammapic',3=>'gammaphoto',4=>'dmsr'];
         if(IS_POST){
-            //print_r($_POST);
-        	if(I("post.name")==1){
-                 $ldate=!empty(I("post.ldate")) ? strtotime(I("post.ldate")): "";
-                 $udate=!empty(I("post.udate")) ? strtotime(I("post.udate")): time();
-                 $this->doserateData($ldate,$udate);
-        	}else if(I("post.name")==2){
-                 $ldate=!empty(I("post.ldate")) ? strtotime(I("post.ldate")): "";
-                 $udate=!empty(I("post.udate")) ? strtotime(I("post.udate")): time();
-                 $this->gammapicData($ldate,$udate);
-        	}else if(I("post.name")==3){
-                 $ldate=!empty(I("post.ldate")) ? strtotime(I("post.ldate")): "";
-                 $udate=!empty(I("post.udate")) ? strtotime(I("post.udate")): time();
-                 $this->gammaphotoData($ldate,$udate);
-        	}else if(I("post.name")==4){
-                 $llng=!empty(I("post.llng")) ? I("post.llng"): 0;//经度大于
-                 $ulng=!empty(I("post.ulng")) ? I("post.ulng"): 180;//经度小于
-                 $llat=!empty(I("post.llat")) ? I("post.llat"): 0;//纬度大于
-                 $ulat=!empty(I("post.ulat")) ? I("post.ulat"): 90;//纬度小于
-                 $ldate=!empty(I("post.ldate")) ? strtotime(I("post.ldate")): "";
-                 $udate=!empty(I("post.udate")) ? strtotime(I("post.udate")): time();
-                 // print_r($ldate);
-                 // print_r('');
-                 // print_r($udate);
-                 $this->dmsrData($llng,$ulng,$llat,$ulat,$ldate,$udate);
-        	}else{
+            /*$ldate=!empty(I("post.ldate")) ? strtotime(I("post.ldate")): "";
+            $udate=!empty(I("post.udate")) ? strtotime(I("post.udate")): time();*/
+            /*$llng=!empty(I("post.llng")) ? I("post.llng"): 0; //经度大于
+            $ulng=!empty(I("post.ulng")) ? I("post.ulng"): 180;//经度小于
+            $llat=!empty(I("post.llat")) ? I("post.llat"): 0;//纬度大于
+            $ulat=!empty(I("post.ulat")) ? I("post.ulat"): 90;//纬度小于
+            $this->dmsrData($llng,$ulng,$llat,$ulat,$ldate,$udate);*/
+            $qCondition=I('post');
+            if(in_array(I('post.name'),array_keys($type_arr))){
+                 $this->{$type_arr[I('post.name')].'Data'}($qCondition);
+            }else{
                 echo json_encode(['cood'=>'200','msg'=>'请输入查询名称','data'=>'']);  
             }
         }
@@ -124,103 +111,170 @@ class DataqueryController extends Controller {
             readfile($filename);
         }
     }
-   
-    private function doserateData($ldate,$udate){
+    private function doserateData($q){
     	$doserate=M("doserate");
-    	$array=array();
-        if(!empty($ldate)&&!empty($udate)){
-        $condition["collectTime"]=array(array("gt",$ldate),array("lt",$udate));
+    	$data=[];
+        $condition=[];
+        $limitNum=0;
+        $ldate=!empty(I("post.ldate"))? strtotime(I("post.ldate")):"";
+        $udate=!empty(I("post.udate"))? strtotime(I("post.udate")):"";
+        if(!empty($ldate)||!empty($udate)){
+               if(!empty($ldate)&&empty($udate)){
+                        $condition["collect_time"]=array("gt",$ldate); 
+               }else if (empty($ldate)&&!empty($udate)){
+                        $condition["collect_time"]=array("lt",$udate); 
+               }else{
+                        $condition["collect_time"]=array(array("gt",$ldate),array("lt",$udate)); 
+               }            
+               $limitNum=100;
+        }else{
+             $limitNum=20;
         }
-        $doseData=$doserate->order("collectTime desc")
-                           ->field("id,legendName as name,collectTime as date")
+        $doseData=$doserate->order("collect_time asc")
+                           ->limit($limitNum)
+                           ->field("think_doserate.id as id,think_device.device_name as  name,think_doserate.collect_time as date,think_doserate.dose_rate as val")
+                           ->join('inner join think_device where think_device.id=think_doserate.device_id')
                            ->where($condition)->select();
         foreach ($doseData as $key => $value) {
-            $value["date"]=date("Y-m-d",$value["date"]);
-            $array[$key]['listcon']=$value;
-            //$array[$key]['iconurl']='/HFS/Public/Images/file_download.png';
-            $array[$key]['iconurl']='../../Public/Images/file_download.png';
-            $array[$key]['downloadurl']='Dataquery/down?type=1&id='.$value["id"];
+                $value["date"]=date("Y-m-d H:i:s",$value["date"]);
+                $data[$key]['listcon']=$value;
+                $data[$key]['iconurl']='../../Public/Images/file_download.png';
+                $data[$key]['downloadurl']='Dataquery/down?type=1&id='.$value["id"];
         }
-        
-        //print_r($array);
-        if(!empty($array)){
-           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$array]);
+
+        if(!empty($data)){
+           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$data]);
         }else{
-           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>$array]);
+           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>$data]);
         }
     }
-    private function gammapicData($ldate,$udate){
+    private function gammapicData($q){
     	$gammapic=M("gammapic");
-        $array=array();
-        if(!empty($ldate)&&!empty($udate)){
-        $condition["collectTime"]=array(array("gt",$ldate),array("lt",$udate));
-        }
-        $gammaData=$gammapic->order("collectTime desc")
-                       ->field("id,legendName as name,collectTime as date")
-                       ->where($condition)->select();
-        foreach ($gammaData as $key => $value) {
-            $value["date"]=date("Y-m-d",$value["date"]);
-            $array[$key]['listcon']=$value;
-            //$array[$key]['iconurl']='/HFS/Public/Images/file_download.png';
-            $array[$key]['iconurl']='../../Public/Images/file_download.png';
-            $array[$key]['downloadurl']='Dataquery/down?type=2&id='.$value["id"];
-        }
-        
-        //print_r($array);
-        if(!empty($array)){
-           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$array]);
+        $legendModel=M('gammapic_legend');
+        $data=[];
+        $condition=[];
+        $limitNum=0;
+        $ldate=!empty(I("post.ldate"))? strtotime(I("post.ldate")):"";
+        $udate=!empty(I("post.udate"))? strtotime(I("post.udate")):"";
+        if(!empty($ldate)||!empty($udate)){
+               if(!empty($ldate)&&empty($udate)){
+                        $condition["collect_time"]=array("gt",$ldate); 
+               }else if (empty($ldate)&&!empty($udate)){
+                        $condition["collect_time"]=array("lt",$udate); 
+               }else{
+                        $condition["collect_time"]=array(array("gt",$ldate),array("lt",$udate)); 
+               }            
+               $limitNum=100;
         }else{
-           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>$array]);
+             $limitNum=20;
+        }
+        $back=$legendModel->order('collect_time desc')->limit($limitNum)
+                           ->field('id ,collect_time as date,legend_name as name')
+                           ->where($condition)
+                           ->select();
+        foreach ($back as $key => $value) {
+            $data[$key]['downloadurl']='Dataquery/down?type=2&legend_id='.$value["id"];
+            $value["date"]=date("Y-m-d H:i:s",$value["date"]);
+            $data[$key]['listcon']=$value;
+            $data[$key]['iconurl']='../../Public/Images/file_download.png';
+        }
+        if(!empty($data)){
+           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$data]);
+        }else{
+           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>'']);
         }
     }
-    private function gammaphotoData($ldate,$udate){
+    private function gammaphotoData($q){
     	$gammaphoto=M("gammaphoto");
-        $array=array();
-        if(!empty($ldate)&&!empty($udate)){
-        $condition["collectTime"]=array(array("gt",$ldate),array("lt",$udate));
-        }
-        $gammaData=$gammaphoto->order("collectTime desc")
-                       ->field("id,legendName as name,collectTime as date")
-                       ->where($condition)->select();
-        foreach ($gammaData as $key => $value) {
-            $value["date"]=date("Y-m-d",$value["date"]);
-            $array[$key]['listcon']=$value;
-            //$array[$key]['iconurl']='/HFS/Public/Images/file_download.png';
-            $array[$key]['iconurl']='../../Public/Images/file_download.png';
-            $array[$key]['downloadurl']='Dataquery/down?type=3&id='.$value["id"];
-        }
-        
-        //print_r($array);
-        if(!empty($array)){
-           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$array]);
+        $legendModel=M('gammaphoto_legend');
+        $data=[];
+        $condition=[];
+        $limitNum=0;
+        $ldate=!empty(I("post.ldate"))? strtotime(I("post.ldate")):"";
+        $udate=!empty(I("post.udate"))? strtotime(I("post.udate")):"";
+        if(!empty($ldate)||!empty($udate)){
+               if(!empty($ldate)&&empty($udate)){
+                        $condition["collect_time"]=array("gt",$ldate); 
+               }else if (empty($ldate)&&!empty($udate)){
+                        $condition["collect_time"]=array("lt",$udate); 
+               }else{
+                        $condition["collect_time"]=array(array("gt",$ldate),array("lt",$udate)); 
+               }            
+               $limitNum=100;
         }else{
-           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>$array]);
+             $limitNum=20;
         }
+        $back=$legendModel->order('collect_time desc')->limit($limitNum)
+                           ->field('id ,collect_time as date,legend_name as name')
+                           ->where($condition)
+                           ->select();
+        foreach ($back as $key => $value) {
+            $data[$key]['downloadurl']='Dataquery/down?type=3&legend_id='.$value["id"];
+            $value["date"]=date("Y-m-d H:i:s",$value["date"]);
+            $data[$key]['listcon']=$value;
+            $data[$key]['iconurl']='../../Public/Images/file_download.png';
+        }
+        if(!empty($data)){
+           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$data]);
+        }else{
+           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>'']);
+        }
+
     }
-    private function dmsrData($llng,$ulng,$llat,$ulat,$ldate,$udate){
+    private function dmsrData($q){
         $dmsr=M("dmsr");
-        $condition["longitude"]=array(array("gt",$llng),array("lt",$ulng));
-        $condition["latitude"]=array(array("gt",$llat),array("lt",$ulat));
-        if(!empty($ldate)&&!empty($udate)){
-        $condition["collectTime"]=array(array("gt",$ldate),array("lt",$udate));
+        $data=[];
+        $condition=[];
+        $limitNum=0;
+        $condition["longitude"]=array(array("gt",I("post.llng")),array("lt",I('post.ulng')));
+        $condition["latitude"]=array(array("gt",I('post.llat')),array("lt",I('post.ulat')));
+        $ldate=!empty(I("post.ldate"))? strtotime(I("post.ldate")):"";
+        $udate=!empty(I("post.udate"))? strtotime(I("post.udate")):"";
+        if(!empty($ldate)||!empty($udate)){
+               if(!empty($ldate)&&empty($udate)){
+                        $condition["collect_time"]=array("gt",$ldate); 
+               }else if (empty($ldate)&&!empty($udate)){
+                        $condition["collect_time"]=array("lt",$udate); 
+               }else{
+                        $condition["collect_time"]=array(array("gt",$ldate),array("lt",$udate)); 
+               }            
+               $limitNum=100;
+        }else{
+             $limitNum=20;
         }
-        $array=array();
+        $dmsrData=$dmsr->order("collect_time asc")
+                           ->limit($limitNum)
+                           ->field("think_dmsr.id as id,
+                                    think_dmsr_legend.legend_name as  name,
+                                    think_dmsr_legend.collect_time as date,
+                                    think_dmsr.longitude as longitude,
+                                    think_dmsr.latitude as latitude,
+                                    think_dmsr.dose_rate as val")
+                           ->join('inner join think_dmsr_legend on think_dmsr_legend.id=think_dmsr.legend_id')
+                           ->where($condition)->select();
+        foreach ($dmsrData as $key => $value) {
+                $value["date"]=date("Y-m-d H:i:s",$value["date"]);
+                $data[$key]['listcon']=$value;
+                $data[$key]['iconurl']='../../Public/Images/file_download.png';
+                $data[$key]['downloadurl']='Dataquery/down?type=1&id='.$value["id"];
+        }
+       /* if(!empty($ldate)&&!empty($udate)){
+            $condition["collectTime"]=array(array("gt",$ldate),array("lt",$udate));
+        }*/
+        /*$array=array();
         $dmsrData=$dmsr->order("collectTime desc")
                        ->field("id,legendName as name,collectTime as date,longitude,latitude")
                        ->where($condition)->select();
         foreach ($dmsrData as $key => $value) {
             $value["date"]=date("Y-m-d",$value["date"]);
             $array[$key]['listcon']=$value;
-            //$array[$key]['iconurl']='/HFS/Public/Images/file_download.png';
             $array[$key]['iconurl']='../../Public/Images/file_download.png';
             $array[$key]['downloadurl']='Dataquery/down?type=4&id='.$value["id"];
-        }
-        
-        //print_r($array);
-        if(!empty($array)){
-           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$array]);
+        }*/
+        if(!empty($data)){
+           echo json_encode(['cood'=>'200','msg'=>'good','data'=>$data]);
         }else{
-           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>$array]);
+           echo json_encode(['cood'=>'200','msg'=>'没有合适数据','data'=>'']);
         }
     }
     private function delfile($dir){

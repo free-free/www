@@ -1,7 +1,7 @@
 $(function(){
-	
-	$(window).scrollTop(0);
    	$('input[type="checkbox"]').prop('checked',false);
+   	$(window).scrollTop(0);
+   
 	/**
 	 *@desc:generate a graphic box div and append it to it's parent node
 	 *@param: id ,box's id
@@ -267,7 +267,7 @@ $(function(){
 	 *@return: none
 	 */
 	function queryData(url,q_data){
-		$.ajax(url+'?'+Math.random(),{
+		   $.ajax(url+'?'+Math.random(),{
 			type:'POST',
 			async:true,
 			contentType:'application/x-www-form-urlencoded',
@@ -331,7 +331,6 @@ $(function(){
 		json.type=qType;
 		json.lDate=lDateE;
 		json.uDate=uDateE;
-		//json.dName=deviceNameE.split(',');
 		json=JSON.stringify(json);
 		console.log(json);
 		q='q='+json;
@@ -350,6 +349,8 @@ $(function(){
       var elem = document.createElement('canvas');
       return !!(elem.getContext && elem.getContext('2d'));
     }
+
+
     if (!isSupportCanvas()) {
       alert('热力图仅对支持canvas的浏览器适用,您所使用的浏览器不能使用热力图功能,请换个浏览器试试~')
     }
@@ -397,8 +398,6 @@ $(function(){
    		});	
    		heatmap.show();
     }
-    //$('a.search-btn').click();
-   
    	$('input[type="checkbox"]').change(function(){
    		input_id_arr=[
    			'check1',
@@ -420,7 +419,7 @@ $(function(){
 	 *@return: none
 	 *
 	 */
-
+	$('a.search-btn').click();
 	$('.date').datetimepicker({
 		'lang':'ch',
 		'format':"Y-m-d H:i",

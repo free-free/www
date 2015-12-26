@@ -82,11 +82,12 @@
 					查询结果
 					</h2>
 					<div class="desc-box">
-						<span class="desc-item">名称</span>
-						<span class="desc-item">时间</span>
-						<span class="desc-item">经度</span>
-						<span class="desc-item">纬度</span>
-						<span class="desc-item"></span>
+						<span class="desc-item" id="name">名称</span>
+						<span class="desc-item" id="time">时间</span>
+						<span class="desc-item" id="lngtd">经度</span>
+						<span class="desc-item" id="ltd">纬度</span>
+						<span class="desc-item" id="val_size">大小</span>
+						<span class="desc-item" id="op">操作</span>
 						<div class="clearfix"></div>
 					</div>
 				</div>

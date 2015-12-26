@@ -1,4 +1,6 @@
 $(function(){
+	var listClmWidth='';
+	$('input[type="text"]').val('');
 	/**
 	 *
 	 *@desc	: load calendar picker plugin
@@ -19,17 +21,34 @@ $(function(){
 	 */
 	function createDataListItem(id,info){
 		var data_item,date,name,longitude,latitude,donwload;
-		data_item=$('<div></div>').addClass('datalist-item').attr('id',id);
-		name=$('<dd></dd>').addClass('data-info');
-		date=$('<dd></dd>').addClass('data-info');
-		longitude=$('<dd></dd>').addClass('data-info');
-		latitude=$('<dd></dd>').addClass('data-info');
-		download=$('<dd></dd>').addClass('data-info').addClass('data-operate');
-		name.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.name).addClass('name'));
-		date.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.date).addClass('udate'));
-		longitude.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.longitude).addClass('ulng'));
-		latitude.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.latitude).addClass('ulat'));
-		download.append(
+		item=$('<div></div>').addClass('datalist-item').attr('id',id);
+		data_item=$('<dl></dl>');
+		item.append(data_item);
+		if(info.listcon.name){
+			name=$('<dd></dd>').addClass('data-info');
+			name.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.name).addClass('name'));
+			data_item.append(name);
+		}
+		if(info.listcon.date){
+			date=$('<dd></dd>').addClass('data-info');
+			date.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.date).addClass('udate'));
+			data_item.append(date);
+		}
+		if(info.listcon.longitude||info.listcon.latitude){
+			longitude=$('<dd></dd>').addClass('data-info');
+			latitude=$('<dd></dd>').addClass('data-info');
+			longitude.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.longitude).addClass('ulng'));
+			latitude.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.latitude).addClass('ulat'));
+			data_item.append(longitude).append(latitude);
+		}
+		if(info.listcon.val){
+			value=$('<dd></dd>').addClass('data-info');	
+			value.append($('<a class="qlink"></a>').attr('href','javascript:void(0);').text(info.listcon.val).addClass('val'));
+			data_item.append(value);
+		}
+		if(info.downloadurl){
+			download=$('<dd></dd>').addClass('data-info').addClass('data-operate');
+			download.append(
 			$('<a></a>')
 			.attr('href',info.downloadurl)
 			.append($('<img>')
@@ -37,19 +56,14 @@ $(function(){
 					.attr('alt','download')
 					)
 			);
-		data_item.append($('<dl></dl>')
-						 .append(name)
-						 .append(date)
-						 .append(longitude)
-						 .append(latitude)
-						 .append(download)
-						 );
-		if(id%2===0){
-			data_item.css('background','#ccc');
-		}else{
-			data_item.css('background','#f5f5f5');
+			data_item.append(download);
 		}
-		return data_item;
+		if(id%2===0){
+			item.css('background','#ccc');
+		}else{
+			item.css('background','#f5f5f5');
+		}
+		return item;
 	}
 /*	var json={
 		'code':200,
@@ -101,6 +115,7 @@ $(function(){
 				for(var i=0;i<json.data.length;i++){
 					$('.datalist').append(createDataListItem(i,json.data[i]));
 				}
+				$('.data-info').css('width',listClmWidth);
 				var note=createNote().text(json.msg);
 				$('body').append(note);
 				setTimeout(function(){
@@ -113,6 +128,7 @@ $(function(){
 					var q=$(this).attr('class')+'='+$(this).text();
 					queryData('Dataquery/dataQuery',q);
 				});
+
 			},
 			error:function(xhr,erorr){
 					alert(xhr.responseText+'\n'+erorr);
@@ -136,11 +152,7 @@ $(function(){
 	 			l_latitude=$('.l_latitude').val()||'',
 	 			u_latitude=$('.u_latitude').val()||'',
 	 			q=[],
-	 			exp=/^[0-9]*\.*[0-9]*$/;
-	 			if(!exp.test(l_longitude)||!exp.test(u_longitude)||!exp.test(l_latitude)||!exp.test(u_latitude)){
-	 				alert('经纬度只能为数值类型');
-	 				return ;
-	 			}
+	 			exp=/^-?[0-9]*\.*[0-9]*$/;
 	 			/*查询条件
 	 			*/
 	 			l_date?q.push('ldate='+l_date):'';//最小时间 
@@ -150,6 +162,57 @@ $(function(){
 	 			u_longitude?q.push('ulng='+u_longitude):'';//最大经度
 	 			l_latitude?q.push('llat='+l_latitude):'';// 最小纬度
 	 			u_latitude?q.push('ulat='+u_latitude):'';//最大纬度
+	 			if(name==1){
+	 				descBox=$('.desc-box ');
+	 				descBox.find('.desc-item').remove();
+	 				name=$('<span class="desc-item">名称</span>');
+	 				time=$('<span class="desc-item">时间</span>');
+	 				value=$('<span class="desc-item">大小</span>');
+	 				operation=$('<span class="desc-item">操作</span>');
+	 				descBox.append(name)
+	 					   .append(time)
+	 					   .append(value)
+	 					   .append(operation);
+	 			    listClmWidth='25%';
+	 				$('.desc-item').css('width',listClmWidth);
+	 			
+	 			}else if(name==2||name==3){
+	 				descBox=$('.desc-box ');
+	 				descBox.find('.desc-item').remove();
+	 				name=$('<span class="desc-item">名称</span>');
+	 				time=$('<span class="desc-item">时间</span>');
+	 				operation=$('<span class="desc-item">操作</span>');
+	 				descBox.append(name)
+	 					   .append(time)
+	 					   .append(operation);
+	 			    listClmWidth='33%';
+	 				$('.desc-item').css('width',listClmWidth);
+	 			}else {
+	 				if( !exp.test(l_longitude)||
+	 			   		!exp.test(u_longitude)||
+	 			   		!exp.test(l_latitude)||
+	 			   		!exp.test(u_latitude)||
+	 			   		!l_longitude||!u_longitude||!l_latitude||!u_latitude){
+	 					alert('经纬度只能为数值类型');
+	 					return ;
+	 				}
+	 				descBox=$('.desc-box ');
+	 				descBox.find('.desc-item').remove();
+	 				name=$('<span class="desc-item">名称</span>');
+	 				time=$('<span class="desc-item">时间</span>');
+	 				value=$('<span class="desc-item">大小</span>');
+	 				longitude=$('<span class="desc-item">经度</span>');
+	 				latitude=$('<span class="desc-item">纬度</span>');
+	 				operation=$('<span class="desc-item">操作</span>');
+	 				descBox.append(name)
+	 					   .append(time)
+	 					   .append(longitude)
+	 					   .append(latitude)   
+	 					   .append(value)
+	 					   .append(operation);
+	 			    listClmWidth='15%';
+	 				$('.desc-item').css('width',listClmWidth);
+	 			}
 	 			q=q.join('&');
 	 			/*当查询条件q为空时,按最新时间返回20条数据*/
 	 			queryData('Dataquery/dataQuery',q);
@@ -180,13 +243,14 @@ $(function(){
                     'border-radius':'5px'
         }).addClass('note');
     }
-    /**
+ 
+	 /**
 	  *
 	  *@desc: 
 	  *@param: none
 	  *@return: divelement
 	  */
-	 $('.l_longitude,.u_longitude').blur(function(){
+	$('.l_longitude,.u_longitude').blur(function(){
 	 	/*var  llon=parseFloat($('.l_longitude').val()?$('.l_longitude').val():0),
 	 		 ulon=parseFloat($('.u_longitude').val()?$('.u_longitude').val():0);
 	 	if((isNaN(llon)||isNaN(ulon))&& $(this).val()!==''){
@@ -194,14 +258,22 @@ $(function(){
 	 	}else{
 	 		$('.lon_check_note').css('color','#336699').text('*');
 	 	}*/
-	 	var exp=/^[0-9]*\.*[0-9]*$/;
-	 	if(!exp.test($('.l_longitude').val())||!exp.test($('.u_longitude').val())){
-	 		$('.lon_check_note').css('color','#f00').text('经度只能为数值');
+	 	
+	 	var exp=/^-?[0-9]*\.*[0-9]*$/;
+	 	llngtd=$('.l_longitude').val();
+	 	ulngtd=$('.u_longitude').val();
+	 	if(!exp.test(llngtd)||
+	 	   !exp.test(ulngtd)||
+	 	   Math.abs(ulngtd/1)>180||
+	 	   Math.abs(llngtd/1)>180||
+	 	   !llngtd||!ulngtd
+	 	   ){
+	 		$('.lon_check_note').css('color','#f00').text('请正确填写经度');
 	 	}else{
 	 		$('.lon_check_note').css('color','#336699').text('*');
 	 	}
 	 })
-	 $('.l_latitude,.u_latitude').blur(function(){
+	$('.l_latitude,.u_latitude').blur(function(){
 	 	/*var  llat=parseFloat($('.l_latitude').val()?$('.l_latitude').val():0),
 	 		ulat=parseFloat($('.u_latitude').val()?$('.u_latitude').val():0);
 	 	if((isNaN(llat)||isNaN(ulat))&& $(this).val()!==''){
@@ -209,9 +281,17 @@ $(function(){
 	 	}else{
 	 		$('.lat_check_note').css('color','#336699').text('*');
 	 	}*/
-	 	var exp=/^[0-9]*\.*[0-9]*$/;
-	 	if(!exp.test($('.l_latitude').val())||!exp.test($('.u_latitude').val())){
-	 		$('.lat_check_note').css('color','#f00').text('经度只能为数值');
+
+	 	var exp=/^-?[0-9]*\.*[0-9]*$/;
+	 	llttd=$('.l_latitude').val();
+	 	ulttd=$('.u_latitude').val();
+	 	if(!exp.test(llttd)||
+	 	   !exp.test(ulttd)||
+	 	   Math.abs(llttd/1)>90||
+	 	   Math.abs(ulttd/1)>90||
+	 	   !llttd||!ulttd
+	 	   ){
+	 		$('.lat_check_note').css('color','#f00').text('请正确填写纬度');
 	 	}else{
 	 		$('.lat_check_note').css('color','#336699').text('*');
 	 	}
@@ -223,8 +303,11 @@ $(function(){
 	  *@param: none
 	  *@return: 
 	  */
-	  $('.s_name').change(function(){
+	$('.s_name').change(function(){
 	  	var thisVal=$(this).val();
+	  	$('input[type="text"]').val('');
+	  	$('.lon_check_note').text('');
+	  	$('.lat_check_note').text('');
 	  	if(parseInt(thisVal)!==4){
 	  		$('.search-longitude input,.search-latitude input').attr('disabled',true);
 	  	}else{
@@ -233,5 +316,6 @@ $(function(){
 	  })
 
 	  $('.s_name').change();
+
 
 });

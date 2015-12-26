@@ -131,7 +131,7 @@ body{
 	float: left;
 	height: 30px;
 	line-height: 30px;
-	width: 20%;
+	width: 15%;
 	text-align: center;
 	color: #666;
 	font-size: 14px;
@@ -148,7 +148,7 @@ body{
 .data-info{
 	display: block;
 	float: left;
-	width: 20%;
+	width: 15%;
 	text-align: center;
 	font-family: 'arial' 'Microsoft Yahei' 'SimHei' sans-serif;
     font-size: 12px;
