@@ -25,7 +25,19 @@ class LoginValidateRequest extends Request
     {
         return [
             'email'=>'required',
-            'password'=>'required|max:100|min:6',
+            'password'=>'required|max:100|min:10',
         ];
     }
+     /**
+     * Get the custermizing return message format
+     *
+     * @return array
+     */
+     public function messages()
+     {
+        return [
+        'email.required'=>'A email is required',
+        'password.required'=>'Password is required'
+        ];
+     }
 }

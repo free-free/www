@@ -6,14 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>核辐射数据后台管理系统</title>
 	<link rel="stylesheet" href="/Public/Css/Admin/default/base.css">
-	<link rel="stylesheet" href="/Public/Css/Admin/Safemanage/passMod.css">
+	<link rel="stylesheet" href="/Public/Css/Admin/Upload/noticeUpload.css">
 	<style type="text/css" media="screen">
 	</style>
 	<script src="/Public/Js/Admin/jquery-1.8.0.js" type="text/javascript">
 	</script>
 	<script src="/Public/Js/Admin/base.js" type="text/javascript"></script>
 	<script src="/Public/Js/Admin/jquery.easing.1.3.js" type="text/javascript"></script>
-	<script src="/Public/Js/Admin/Safemanage/passmod.js" type="text/javascript"></script>
+	<script src="" type="text/javascript"></script>
 </head>
 <body>
 	
@@ -47,32 +47,35 @@
 	
 
 	
-    <div id="content">
-       <h1>修改密码</h1>
-       <form id="frm" method="post" action="/index.php/Admin/Safemanage/passMod">
-          <ul class="passmod1">
-              <li  class="list"><font color="red">*</font>密码</li>
-              <li>
-              <input type="hidden" name="user" value="<?php echo ($user); ?>">
-              <input class="pass" type="password" name="oldpass" value="">
-              <span style="color:red"></span>
-              </li>
-          </ul>
-          <ul class="passmod2">
-              <li  class="list"><font color="red">*</font>新密码</li>
-              <li><input class="pass" type="password" name="password" value=""></li>
-          </ul>
-          <ul class="passmod3">
-             <li  class="list"><font color="red">*</font>再次输入</li>
-             <li><input class="pass" type="password" name="rpassword" value=""></li>
-          </ul>
-          <ul class="passmod4">
-             <li  class="list"><font color="red">*</font>验证码</li>
-             <li><input class="pass" type="text" name="code" value=""></li>
-             <li ><img class="code" src="/index.php/Admin/Safemanage/vcode" alt="vcode" onclick="this.src='/index.php/Admin/Safemanage/vcode?random=+Math.random()'"></li>
-          </ul>
-          <li><input type="submit" class="submit" name="sub" value="确定" disabled></li>
-       </form>
+	<div id="content">
+	<h1>通知公告上传表单</h1>
+	   <form id="frm" action="/index.php/Admin/Upload/noticeUpload" method="post" enctype="multipart/form-data">
+	         <ul class="ulist1">
+	         <label><li class="titlelist">通知题目</li>
+	         <li ><input type="text" class="titletxt" name="title" size="28"/></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist2">
+	         <label><li class="authorlist">通知发布者</li>
+	         <li ><input type="text" class="authortxt" name="author" size="28"/></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist3">
+	         <label><li class="contentlist">通知内容</li>
+	         <li ><textarea class="contenttxt" name="content"></textarea></li>
+	         </label>
+	         </ul>
+	         <ul class="ulist4">
+	         <li class="imporatnt" style="margin-top:30px">重要程度</li>
+	         <li class="radiolist" style="margin-top:30px">
+	         <label><span>一级</span><input type="radio" name="important" value="1"/></label>
+	         <label><sapn>二级</sapn><input type="radio" name="important" value="2"/></label>
+	         <label><sapn>三级</sapn><input type="radio" name="important" value="3"/></label>
+	         </li>
+	         </ul>
+	         <li ><input type="submit" class="submit" name="sub" value="发布"></li>
+	     
+	   </form>
 	</div>
 
 	

@@ -175,7 +175,7 @@ class DataprocessController extends Controller {
                   $countP[0][0]['data']=array_column($records,'countP');
                   $powerR[0][0]['data']=array_column($records,'powerR');
                   $powerR[0][0]['legendName']=2;
-                  $powerR[0][0]['max']=500;
+                  $powerR[0][0]['max']=1000;
                   $powerR[0][0]["name"]="gammapic";
            }else{
                 $legendModel=D('gammapic_legend');

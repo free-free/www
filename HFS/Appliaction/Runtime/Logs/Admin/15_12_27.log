@@ -1,0 +1,103 @@
+[ 2015-12-27T18:38:12+08:00 ] 127.0.0.1 /index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+
+[ 2015-12-27T18:38:14+08:00 ] 127.0.0.1 /index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+
+[ 2015-12-27T18:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2015-12-27T18:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+
+[ 2015-12-27T18:39:18+08:00 ] 127.0.0.1 /index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2015-12-27T18:39:19+08:00 ] 127.0.0.1 /index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-12-27T18:39:27+08:00 ] 127.0.0.1 /index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-12-27T18:39:28+08:00 ] 127.0.0.1 /index.php/Admin/Upload/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-12-27T18:39:30+08:00 ] 127.0.0.1 /index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2015-12-27T18:39:31+08:00 ] 127.0.0.1 /index.php/Admin/Upload/reportUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2015-12-27T18:39:32+08:00 ] 127.0.0.1 /index.php/Admin/Upload/noticeUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+
+[ 2015-12-27T18:39:34+08:00 ] 127.0.0.1 /index.php/Admin/Upload/noticeUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+
+[ 2015-12-27T18:39:50+08:00 ] 127.0.0.1 /index.php/Admin/Info/newsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-12-27T18:39:59+08:00 ] 127.0.0.1 /index.php/Admin/Info/reportInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-12-27T18:40:20+08:00 ] 127.0.0.1 /index.php/Admin/Safemanage/passMod
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-12-27T18:40:21+08:00 ] 127.0.0.1 /index.php/Admin/Safemanage/vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+
+[ 2015-12-27T18:40:25+08:00 ] 127.0.0.1 /index.php/Admin/Safemanage/vcode?random=+Math.random()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+
+[ 2015-12-27T18:40:30+08:00 ] 127.0.0.1 /index.php/Admin/Safemanage/passQues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 非法操作:passQues
+
+[ 2015-12-27T18:40:35+08:00 ] 127.0.0.1 /index.php/Admin/Safemanage/vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-12-27T18:40:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+

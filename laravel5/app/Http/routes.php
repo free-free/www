@@ -239,3 +239,5 @@ Route::get('session/store','SessionController@session_store');
 Route::get('validate/post','ValidateController@create');
 Route::post('validate/post','ValidateController@store');
 Route::post('validate/form','ValidateController@formRequest');
+Route::post('validate/msg','ValidateController@msgInstance');
+Route::post('validate/cmsg','ValidateController@customMsg');

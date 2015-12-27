@@ -6,14 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>核辐射数据后台管理系统</title>
 	<link rel="stylesheet" href="/Public/Css/Admin/default/base.css">
-	<link rel="stylesheet" href="/Public/Css/Admin/Safemanage/passMod.css">
+	<link rel="stylesheet" href="/Public/Css/Admin/Upload/reportUpload.css">
 	<style type="text/css" media="screen">
 	</style>
 	<script src="/Public/Js/Admin/jquery-1.8.0.js" type="text/javascript">
 	</script>
 	<script src="/Public/Js/Admin/base.js" type="text/javascript"></script>
 	<script src="/Public/Js/Admin/jquery.easing.1.3.js" type="text/javascript"></script>
-	<script src="/Public/Js/Admin/Safemanage/passmod.js" type="text/javascript"></script>
+	<script src="" type="text/javascript"></script>
 </head>
 <body>
 	
@@ -47,32 +47,33 @@
 	
 
 	
-    <div id="content">
-       <h1>修改密码</h1>
-       <form id="frm" method="post" action="/index.php/Admin/Safemanage/passMod">
-          <ul class="passmod1">
-              <li  class="list"><font color="red">*</font>密码</li>
-              <li>
-              <input type="hidden" name="user" value="<?php echo ($user); ?>">
-              <input class="pass" type="password" name="oldpass" value="">
-              <span style="color:red"></span>
-              </li>
-          </ul>
-          <ul class="passmod2">
-              <li  class="list"><font color="red">*</font>新密码</li>
-              <li><input class="pass" type="password" name="password" value=""></li>
-          </ul>
-          <ul class="passmod3">
-             <li  class="list"><font color="red">*</font>再次输入</li>
-             <li><input class="pass" type="password" name="rpassword" value=""></li>
-          </ul>
-          <ul class="passmod4">
-             <li  class="list"><font color="red">*</font>验证码</li>
-             <li><input class="pass" type="text" name="code" value=""></li>
-             <li ><img class="code" src="/index.php/Admin/Safemanage/vcode" alt="vcode" onclick="this.src='/index.php/Admin/Safemanage/vcode?random=+Math.random()'"></li>
-          </ul>
-          <li><input type="submit" class="submit" name="sub" value="确定" disabled></li>
-       </form>
+	<div id="content">
+    <h1>学术上传表单</h1>
+	   <form id="frm" action="/index.php/Admin/Upload/reportUpload" method="post" enctype="multipart/form-data">
+	      <ul class="ulist1">
+	        <li class="filelist">选择论文文件</li>
+	        <li class="filechos">
+	            <div class="file-box">
+                     <input type='text' name='textfield' id='textfield1' class='txt' /> 
+                     <input type='button' class='btn' value='浏览...' /> 
+                     <input type="file" name="report" class="file" id="fileField" size="28" onchange="document.getElementById('textfield1').value=this.value" />  
+                </div>
+	        </li>
+	        </ul>
+	        <ul class="ulist2">
+	        <li class="titlelist">论文题目</li>
+	        <li ><input type="text" class="titletxt" name="title" value="" /></li>
+	        </ul>
+	        <ul class="ulist3">
+	        <li class="authorlist">论文作者</li>
+	        <li ><input type="text" class="authortxt" name="author" value="" /></li>
+	        </ul>
+	        <ul class="ulist4">
+	        <li class="desclist">论文简介</li>
+	        <li ><textarea class="desctxt" name="descs"></textarea></li>
+	        </ul>
+	        <li ><input type="submit" class="submit" name="sub" value="上传" /></li>
+	   </form>
 	</div>
 
 	

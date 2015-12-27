@@ -115,6 +115,9 @@ $(function(){
 				for(var i=0;i<json.data.length;i++){
 					$('.datalist').append(createDataListItem(i,json.data[i]));
 				}
+				if(json.data.length>40){
+						
+				}
 				$('.data-info').css('width',listClmWidth);
 				var note=createNote().text(json.msg);
 				$('body').append(note);
@@ -188,12 +191,13 @@ $(function(){
 	 			    listClmWidth='33%';
 	 				$('.desc-item').css('width',listClmWidth);
 	 			}else {
+	 				/*validate query condition*/
 	 				if( !exp.test(l_longitude)||
 	 			   		!exp.test(u_longitude)||
 	 			   		!exp.test(l_latitude)||
 	 			   		!exp.test(u_latitude)||
 	 			   		!l_longitude||!u_longitude||!l_latitude||!u_latitude){
-	 					alert('经纬度只能为数值类型');
+	 					alert('请填写正确的经纬度');
 	 					return ;
 	 				}
 	 				descBox=$('.desc-box ');

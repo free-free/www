@@ -1,4 +1,4 @@
-<form action="/validate/form" method="post">
+<form action="/validate/cmsg" method="post">
 {!!  csrf_field() !!}
 	  
     <div>
