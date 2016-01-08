@@ -30,11 +30,9 @@ class SessionController extends Controller
 
              /*$back=$request->session()->all();*/
 
-
             /*
             determine if an item exists in session
-            $request->session()->has('key');
-            
+            $request->session()->has('key');            
             */
             $back=$request->session()->get('name');
             $back.=strlen($back);
@@ -43,7 +41,6 @@ class SessionController extends Controller
     public function session_store(Request $request){
 
         /*    $request->session()->put('name',Crypt::encrypt('huangbiao'));*/
-
         
          /*   //Retrieving And Deleting An Item
             $back=$request->session()->pull('name');

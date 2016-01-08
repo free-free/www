@@ -241,3 +241,9 @@ Route::post('validate/post','ValidateController@store');
 Route::post('validate/form','ValidateController@formRequest');
 Route::post('validate/msg','ValidateController@msgInstance');
 Route::post('validate/cmsg','ValidateController@customMsg');
+
+
+/* 
+	Paginate Service
+*/
+Route::get('paginate/create','PaginateController@create');

@@ -85,8 +85,9 @@ class ValidateController extends Controller
             'email'=>'required',
             'password'=>'required'
             ]);
-        /*Retrieving The First Error Message For A Field*/
+        
         $messages=$validator->errors();
+        /*Retrieving The First Error Message For A Field*/
         //echo $messages->first('email');
 
         /*Retrieving All Error Messages For A Field*/

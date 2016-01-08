@@ -40,7 +40,7 @@ class Kernel extends ConsoleKernel
         //Preventing Task Overlaps
         //scheduled tasks will be run even if the previous 
         //instance of the task is still running. To prevent this, you may use the withoutOverlapping method:
-        $schedule->command('emails:send')->hourly()->withouOverlapping();
+        $schedule->command('emails:send')->hourly()->withoutOverlapping();
 
         //Task output
         $schedule->command('email:send')->hourly()->sendOutputTo($filepath);
