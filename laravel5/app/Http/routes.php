@@ -247,3 +247,9 @@ Route::post('validate/cmsg','ValidateController@customMsg');
 	Paginate Service
 */
 Route::get('paginate/create','PaginateController@create');
+
+
+/*
+Qiniu Storage
+*/
+Route::get('qiniu/upload','QiniuController@getUpload');
